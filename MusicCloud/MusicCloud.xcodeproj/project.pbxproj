@@ -7,21 +7,133 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		056521C1221EB2FC00CC9A51 /* Big-Caslon-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 05B20139221E998400097319 /* Big-Caslon-Medium.ttf */; };
+		056521C2221EB2FC00CC9A51 /* Helvetica-UltraCompressed.otf in Resources */ = {isa = PBXBuildFile; fileRef = 05B20145221E998500097319 /* Helvetica-UltraCompressed.otf */; };
+		056521C3221EB2FC00CC9A51 /* HeroicCondensed-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 05B2013B221E998400097319 /* HeroicCondensed-Medium.otf */; };
+		056521C4221EB2FC00CC9A51 /* Montserrat-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 05B20146221E998500097319 /* Montserrat-Black.otf */; };
+		056521C5221EB2FC00CC9A51 /* Montserrat-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 05B2013F221E998400097319 /* Montserrat-Bold.otf */; };
+		056521C6221EB2FC00CC9A51 /* Montserrat-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 05B20149221E998500097319 /* Montserrat-Light.otf */; };
+		056521C7221EB2FC00CC9A51 /* Montserrat-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 05B2013E221E998400097319 /* Montserrat-Regular.otf */; };
+		056521C8221EB2FC00CC9A51 /* orbitron-black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 05B20144221E998500097319 /* orbitron-black.otf */; };
+		056521C9221EB2FC00CC9A51 /* SF-Pro-Display-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 05B2013D221E998400097319 /* SF-Pro-Display-Bold.otf */; };
+		056521CA221EB2FC00CC9A51 /* SF-Pro-Display-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 05B2013C221E998400097319 /* SF-Pro-Display-Light.otf */; };
+		056521CB221EB2FC00CC9A51 /* SF-Pro-Display-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 05B2013A221E998400097319 /* SF-Pro-Display-Regular.otf */; };
+		056521CC221EB2FC00CC9A51 /* SF-Pro-Display-RegularItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 05B20141221E998400097319 /* SF-Pro-Display-RegularItalic.otf */; };
+		056521CD221EB2FC00CC9A51 /* SF-Pro-Display-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 05B20147221E998500097319 /* SF-Pro-Display-Semibold.otf */; };
+		056521CE221EB2FC00CC9A51 /* SF-Pro-Text-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 05B20143221E998400097319 /* SF-Pro-Text-Bold.otf */; };
+		056521CF221EB2FC00CC9A51 /* SF-Pro-Text-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 05B20148221E998500097319 /* SF-Pro-Text-Regular.otf */; };
+		056521D0221EB2FC00CC9A51 /* SF-Pro-Text-RegularItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 05B20138221E998400097319 /* SF-Pro-Text-RegularItalic.otf */; };
+		056521D1221EB2FC00CC9A51 /* SF-Pro-Text-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 05B20140221E998400097319 /* SF-Pro-Text-Semibold.otf */; };
+		056521D2221EB2FC00CC9A51 /* SF-Pro-Text-SemiboldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 05B20142221E998400097319 /* SF-Pro-Text-SemiboldItalic.otf */; };
 		058C5013221BDF3600993C43 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058C5012221BDF3600993C43 /* AppDelegate.swift */; };
-		058C5015221BDF3600993C43 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058C5014221BDF3600993C43 /* ViewController.swift */; };
 		058C5018221BDF3600993C43 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 058C5016221BDF3600993C43 /* Main.storyboard */; };
-		058C501A221BDF3700993C43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 058C5019221BDF3700993C43 /* Assets.xcassets */; };
 		058C501D221BDF3700993C43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 058C501B221BDF3700993C43 /* LaunchScreen.storyboard */; };
+		058C5051221BE11300993C43 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058C5050221BE11300993C43 /* ViewController.swift */; };
+		05B20171221E999B00097319 /* ShuffleHighlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = 05B2014C221E999A00097319 /* ShuffleHighlighted.png */; };
+		05B20172221E999B00097319 /* Search.png in Resources */ = {isa = PBXBuildFile; fileRef = 05B2014D221E999A00097319 /* Search.png */; };
+		05B20173221E999B00097319 /* refresh-black.png in Resources */ = {isa = PBXBuildFile; fileRef = 05B2014E221E999A00097319 /* refresh-black.png */; };
+		05B20174221E999B00097319 /* follower-black.png in Resources */ = {isa = PBXBuildFile; fileRef = 05B2014F221E999A00097319 /* follower-black.png */; };
+		05B20175221E999B00097319 /* PlayBtn-white.png in Resources */ = {isa = PBXBuildFile; fileRef = 05B20150221E999A00097319 /* PlayBtn-white.png */; };
+		05B20176221E999B00097319 /* PreviousBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = 05B20151221E999A00097319 /* PreviousBtn.png */; };
+		05B20177221E999B00097319 /* PlayBtn-black.png in Resources */ = {isa = PBXBuildFile; fileRef = 05B20152221E999A00097319 /* PlayBtn-black.png */; };
+		05B20178221E999B00097319 /* Playback-count-black.png in Resources */ = {isa = PBXBuildFile; fileRef = 05B20153221E999A00097319 /* Playback-count-black.png */; };
+		05B20179221E999B00097319 /* HomeHighlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = 05B20154221E999A00097319 /* HomeHighlighted.png */; };
+		05B2017A221E999B00097319 /* Like.png in Resources */ = {isa = PBXBuildFile; fileRef = 05B20155221E999A00097319 /* Like.png */; };
+		05B2017B221E999B00097319 /* Like-white.png in Resources */ = {isa = PBXBuildFile; fileRef = 05B20156221E999A00097319 /* Like-white.png */; };
+		05B2017C221E999B00097319 /* Liked-orange.png in Resources */ = {isa = PBXBuildFile; fileRef = 05B20157221E999A00097319 /* Liked-orange.png */; };
+		05B2017D221E999B00097319 /* ProfileHighlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = 05B20158221E999A00097319 /* ProfileHighlighted.png */; };
+		05B2017E221E999B00097319 /* Playback-count-lightgray.png in Resources */ = {isa = PBXBuildFile; fileRef = 05B20159221E999A00097319 /* Playback-count-lightgray.png */; };
+		05B2017F221E999B00097319 /* PlayBtn-blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 05B2015A221E999A00097319 /* PlayBtn-blue.png */; };
+		05B20180221E999B00097319 /* LikedPlaylist-blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 05B2015B221E999A00097319 /* LikedPlaylist-blue.png */; };
+		05B20181221E999B00097319 /* NextBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = 05B2015C221E999A00097319 /* NextBtn.png */; };
+		05B20182221E999B00097319 /* LikedPlaylist-orange.png in Resources */ = {isa = PBXBuildFile; fileRef = 05B2015D221E999A00097319 /* LikedPlaylist-orange.png */; };
+		05B20183221E999B00097319 /* more-black.png in Resources */ = {isa = PBXBuildFile; fileRef = 05B2015E221E999A00097319 /* more-black.png */; };
+		05B20184221E999B00097319 /* PlayBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = 05B2015F221E999A00097319 /* PlayBtn.png */; };
+		05B20185221E999B00097319 /* SearchHighlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = 05B20160221E999B00097319 /* SearchHighlighted.png */; };
+		05B20186221E999B00097319 /* soundcloud-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 05B20161221E999B00097319 /* soundcloud-logo.png */; };
+		05B20187221E999B00097319 /* LoopBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = 05B20162221E999B00097319 /* LoopBtn.png */; };
+		05B20188221E999B00097319 /* LikedTrack-orange.png in Resources */ = {isa = PBXBuildFile; fileRef = 05B20163221E999B00097319 /* LikedTrack-orange.png */; };
+		05B20189221E999B00097319 /* ShuffleBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = 05B20164221E999B00097319 /* ShuffleBtn.png */; };
+		05B2018A221E999B00097319 /* OfflineMusic.png in Resources */ = {isa = PBXBuildFile; fileRef = 05B20165221E999B00097319 /* OfflineMusic.png */; };
+		05B2018B221E999B00097319 /* arrow-to-right.png in Resources */ = {isa = PBXBuildFile; fileRef = 05B20166221E999B00097319 /* arrow-to-right.png */; };
+		05B2018C221E999B00097319 /* OfflineMusicHighlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = 05B20167221E999B00097319 /* OfflineMusicHighlighted.png */; };
+		05B2018D221E999B00097319 /* Like-lightgray.png in Resources */ = {isa = PBXBuildFile; fileRef = 05B20168221E999B00097319 /* Like-lightgray.png */; };
+		05B2018E221E999B00097319 /* LikedTrack-blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 05B20169221E999B00097319 /* LikedTrack-blue.png */; };
+		05B2018F221E999B00097319 /* Home.png in Resources */ = {isa = PBXBuildFile; fileRef = 05B2016A221E999B00097319 /* Home.png */; };
+		05B20190221E999B00097319 /* more-vertical-black.png in Resources */ = {isa = PBXBuildFile; fileRef = 05B2016B221E999B00097319 /* more-vertical-black.png */; };
+		05B20191221E999B00097319 /* menu-black.png in Resources */ = {isa = PBXBuildFile; fileRef = 05B2016C221E999B00097319 /* menu-black.png */; };
+		05B20192221E999B00097319 /* LoopHighlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = 05B2016D221E999B00097319 /* LoopHighlighted.png */; };
+		05B20193221E999B00097319 /* download.png in Resources */ = {isa = PBXBuildFile; fileRef = 05B2016E221E999B00097319 /* download.png */; };
+		05B20194221E999B00097319 /* Like-orange-filled.png in Resources */ = {isa = PBXBuildFile; fileRef = 05B2016F221E999B00097319 /* Like-orange-filled.png */; };
+		05B20195221E999B00097319 /* Profile.png in Resources */ = {isa = PBXBuildFile; fileRef = 05B20170221E999B00097319 /* Profile.png */; };
+		B5A472751719214C13FCFCC5 /* Pods_MusicCloud.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 372900201454DB9BCD875342 /* Pods_MusicCloud.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		058C500F221BDF3600993C43 /* MusicCloud.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicCloud.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		058C5012221BDF3600993C43 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		058C5014221BDF3600993C43 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		058C5017221BDF3600993C43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		058C5019221BDF3700993C43 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		058C501C221BDF3700993C43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		058C501E221BDF3700993C43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		058C5050221BE11300993C43 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		05B20138221E998400097319 /* SF-Pro-Text-RegularItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Text-RegularItalic.otf"; sourceTree = "<group>"; };
+		05B20139221E998400097319 /* Big-Caslon-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Big-Caslon-Medium.ttf"; sourceTree = "<group>"; };
+		05B2013A221E998400097319 /* SF-Pro-Display-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Regular.otf"; sourceTree = "<group>"; };
+		05B2013B221E998400097319 /* HeroicCondensed-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "HeroicCondensed-Medium.otf"; sourceTree = "<group>"; };
+		05B2013C221E998400097319 /* SF-Pro-Display-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Light.otf"; sourceTree = "<group>"; };
+		05B2013D221E998400097319 /* SF-Pro-Display-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Bold.otf"; sourceTree = "<group>"; };
+		05B2013E221E998400097319 /* Montserrat-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.otf"; sourceTree = "<group>"; };
+		05B2013F221E998400097319 /* Montserrat-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.otf"; sourceTree = "<group>"; };
+		05B20140221E998400097319 /* SF-Pro-Text-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Text-Semibold.otf"; sourceTree = "<group>"; };
+		05B20141221E998400097319 /* SF-Pro-Display-RegularItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-RegularItalic.otf"; sourceTree = "<group>"; };
+		05B20142221E998400097319 /* SF-Pro-Text-SemiboldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Text-SemiboldItalic.otf"; sourceTree = "<group>"; };
+		05B20143221E998400097319 /* SF-Pro-Text-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Text-Bold.otf"; sourceTree = "<group>"; };
+		05B20144221E998500097319 /* orbitron-black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "orbitron-black.otf"; sourceTree = "<group>"; };
+		05B20145221E998500097319 /* Helvetica-UltraCompressed.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Helvetica-UltraCompressed.otf"; sourceTree = "<group>"; };
+		05B20146221E998500097319 /* Montserrat-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Black.otf"; sourceTree = "<group>"; };
+		05B20147221E998500097319 /* SF-Pro-Display-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Semibold.otf"; sourceTree = "<group>"; };
+		05B20148221E998500097319 /* SF-Pro-Text-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Text-Regular.otf"; sourceTree = "<group>"; };
+		05B20149221E998500097319 /* Montserrat-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Light.otf"; sourceTree = "<group>"; };
+		05B2014C221E999A00097319 /* ShuffleHighlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ShuffleHighlighted.png; sourceTree = "<group>"; };
+		05B2014D221E999A00097319 /* Search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Search.png; sourceTree = "<group>"; };
+		05B2014E221E999A00097319 /* refresh-black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "refresh-black.png"; sourceTree = "<group>"; };
+		05B2014F221E999A00097319 /* follower-black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "follower-black.png"; sourceTree = "<group>"; };
+		05B20150221E999A00097319 /* PlayBtn-white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PlayBtn-white.png"; sourceTree = "<group>"; };
+		05B20151221E999A00097319 /* PreviousBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PreviousBtn.png; sourceTree = "<group>"; };
+		05B20152221E999A00097319 /* PlayBtn-black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PlayBtn-black.png"; sourceTree = "<group>"; };
+		05B20153221E999A00097319 /* Playback-count-black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Playback-count-black.png"; sourceTree = "<group>"; };
+		05B20154221E999A00097319 /* HomeHighlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HomeHighlighted.png; sourceTree = "<group>"; };
+		05B20155221E999A00097319 /* Like.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Like.png; sourceTree = "<group>"; };
+		05B20156221E999A00097319 /* Like-white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Like-white.png"; sourceTree = "<group>"; };
+		05B20157221E999A00097319 /* Liked-orange.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Liked-orange.png"; sourceTree = "<group>"; };
+		05B20158221E999A00097319 /* ProfileHighlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ProfileHighlighted.png; sourceTree = "<group>"; };
+		05B20159221E999A00097319 /* Playback-count-lightgray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Playback-count-lightgray.png"; sourceTree = "<group>"; };
+		05B2015A221E999A00097319 /* PlayBtn-blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PlayBtn-blue.png"; sourceTree = "<group>"; };
+		05B2015B221E999A00097319 /* LikedPlaylist-blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LikedPlaylist-blue.png"; sourceTree = "<group>"; };
+		05B2015C221E999A00097319 /* NextBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NextBtn.png; sourceTree = "<group>"; };
+		05B2015D221E999A00097319 /* LikedPlaylist-orange.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LikedPlaylist-orange.png"; sourceTree = "<group>"; };
+		05B2015E221E999A00097319 /* more-black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "more-black.png"; sourceTree = "<group>"; };
+		05B2015F221E999A00097319 /* PlayBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PlayBtn.png; sourceTree = "<group>"; };
+		05B20160221E999B00097319 /* SearchHighlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SearchHighlighted.png; sourceTree = "<group>"; };
+		05B20161221E999B00097319 /* soundcloud-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "soundcloud-logo.png"; sourceTree = "<group>"; };
+		05B20162221E999B00097319 /* LoopBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LoopBtn.png; sourceTree = "<group>"; };
+		05B20163221E999B00097319 /* LikedTrack-orange.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LikedTrack-orange.png"; sourceTree = "<group>"; };
+		05B20164221E999B00097319 /* ShuffleBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ShuffleBtn.png; sourceTree = "<group>"; };
+		05B20165221E999B00097319 /* OfflineMusic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = OfflineMusic.png; sourceTree = "<group>"; };
+		05B20166221E999B00097319 /* arrow-to-right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow-to-right.png"; sourceTree = "<group>"; };
+		05B20167221E999B00097319 /* OfflineMusicHighlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = OfflineMusicHighlighted.png; sourceTree = "<group>"; };
+		05B20168221E999B00097319 /* Like-lightgray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Like-lightgray.png"; sourceTree = "<group>"; };
+		05B20169221E999B00097319 /* LikedTrack-blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LikedTrack-blue.png"; sourceTree = "<group>"; };
+		05B2016A221E999B00097319 /* Home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Home.png; sourceTree = "<group>"; };
+		05B2016B221E999B00097319 /* more-vertical-black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "more-vertical-black.png"; sourceTree = "<group>"; };
+		05B2016C221E999B00097319 /* menu-black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu-black.png"; sourceTree = "<group>"; };
+		05B2016D221E999B00097319 /* LoopHighlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LoopHighlighted.png; sourceTree = "<group>"; };
+		05B2016E221E999B00097319 /* download.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = download.png; sourceTree = "<group>"; };
+		05B2016F221E999B00097319 /* Like-orange-filled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Like-orange-filled.png"; sourceTree = "<group>"; };
+		05B20170221E999B00097319 /* Profile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Profile.png; sourceTree = "<group>"; };
+		372900201454DB9BCD875342 /* Pods_MusicCloud.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MusicCloud.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5770F70701A63B48AFFDFDE9 /* Pods-MusicCloud.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MusicCloud.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MusicCloud/Pods-MusicCloud.debug.xcconfig"; sourceTree = "<group>"; };
+		D93FBE5A1D55478EC012AD56 /* Pods-MusicCloud.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MusicCloud.release.xcconfig"; path = "Pods/Target Support Files/Pods-MusicCloud/Pods-MusicCloud.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +141,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5A472751719214C13FCFCC5 /* Pods_MusicCloud.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +153,8 @@
 			children = (
 				058C5011221BDF3600993C43 /* MusicCloud */,
 				058C5010221BDF3600993C43 /* Products */,
+				CF42B982832843B4812FD914 /* Pods */,
+				AE5FA710C6530E86F3E44512 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +169,349 @@
 		058C5011221BDF3600993C43 /* MusicCloud */ = {
 			isa = PBXGroup;
 			children = (
-				058C5012221BDF3600993C43 /* AppDelegate.swift */,
-				058C5014221BDF3600993C43 /* ViewController.swift */,
-				058C5016221BDF3600993C43 /* Main.storyboard */,
-				058C5019221BDF3700993C43 /* Assets.xcassets */,
-				058C501B221BDF3700993C43 /* LaunchScreen.storyboard */,
+				058C5024221BDFC500993C43 /* Application */,
+				058C5035221BDFE900993C43 /* Data */,
+				058C5040221BE04F00993C43 /* Extension */,
 				058C501E221BDF3700993C43 /* Info.plist */,
+				058C5041221BE05400993C43 /* Repository */,
+				058C5042221BE05A00993C43 /* Resource */,
+				058C5043221BE05F00993C43 /* Scenes */,
+				058C504F221BE0F500993C43 /* Utilities */,
+				058C5052221BE16B00993C43 /* Views */,
+				058C5056221BE18900993C43 /* Widget */,
 			);
 			path = MusicCloud;
+			sourceTree = "<group>";
+		};
+		058C5024221BDFC500993C43 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				058C5012221BDF3600993C43 /* AppDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		058C5035221BDFE900993C43 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				058C5037221BDFFD00993C43 /* Source */,
+				058C5036221BDFF800993C43 /* Model */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		058C5036221BDFF800993C43 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		058C5037221BDFFD00993C43 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				058C5039221BE00E00993C43 /* Remote */,
+				058C5038221BE00500993C43 /* Local */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		058C5038221BE00500993C43 /* Local */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Local;
+			sourceTree = "<group>";
+		};
+		058C5039221BE00E00993C43 /* Remote */ = {
+			isa = PBXGroup;
+			children = (
+				058C503F221BE04500993C43 /* Service */,
+				058C503A221BE01300993C43 /* API */,
+			);
+			path = Remote;
+			sourceTree = "<group>";
+		};
+		058C503A221BE01300993C43 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				058C503E221BE02A00993C43 /* Response */,
+				058C503D221BE02500993C43 /* Request */,
+				058C503C221BE02000993C43 /* Middleware */,
+				058C503B221BE01900993C43 /* Error */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		058C503B221BE01900993C43 /* Error */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Error;
+			sourceTree = "<group>";
+		};
+		058C503C221BE02000993C43 /* Middleware */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Middleware;
+			sourceTree = "<group>";
+		};
+		058C503D221BE02500993C43 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		058C503E221BE02A00993C43 /* Response */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		058C503F221BE04500993C43 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		058C5040221BE04F00993C43 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		058C5041221BE05400993C43 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		058C5042221BE05A00993C43 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				058C504E221BE0BF00993C43 /* Images */,
+				058C504D221BE0B400993C43 /* Fonts */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		058C5043221BE05F00993C43 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				058C5045221BE07900993C43 /* ViewControllers */,
+				058C5044221BE06400993C43 /* Storyboards */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		058C5044221BE06400993C43 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				058C5016221BDF3600993C43 /* Main.storyboard */,
+				058C501B221BDF3700993C43 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		058C5045221BE07900993C43 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				058C504C221BE0A200993C43 /* Tabbar */,
+				058C504B221BE09B00993C43 /* Splash */,
+				058C504A221BE09300993C43 /* Search */,
+				058C5049221BE08E00993C43 /* Player */,
+				058C5048221BE08800993C43 /* OfflineMusics */,
+				058C5047221BE08400993C43 /* Library */,
+				058C5046221BE08100993C43 /* Home */,
+				058C5050221BE11300993C43 /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		058C5046221BE08100993C43 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		058C5047221BE08400993C43 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		058C5048221BE08800993C43 /* OfflineMusics */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = OfflineMusics;
+			sourceTree = "<group>";
+		};
+		058C5049221BE08E00993C43 /* Player */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Player;
+			sourceTree = "<group>";
+		};
+		058C504A221BE09300993C43 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		058C504B221BE09B00993C43 /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		058C504C221BE0A200993C43 /* Tabbar */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tabbar;
+			sourceTree = "<group>";
+		};
+		058C504D221BE0B400993C43 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				05B20139221E998400097319 /* Big-Caslon-Medium.ttf */,
+				05B20145221E998500097319 /* Helvetica-UltraCompressed.otf */,
+				05B2013B221E998400097319 /* HeroicCondensed-Medium.otf */,
+				05B20146221E998500097319 /* Montserrat-Black.otf */,
+				05B2013F221E998400097319 /* Montserrat-Bold.otf */,
+				05B20149221E998500097319 /* Montserrat-Light.otf */,
+				05B2013E221E998400097319 /* Montserrat-Regular.otf */,
+				05B20144221E998500097319 /* orbitron-black.otf */,
+				05B2013D221E998400097319 /* SF-Pro-Display-Bold.otf */,
+				05B2013C221E998400097319 /* SF-Pro-Display-Light.otf */,
+				05B2013A221E998400097319 /* SF-Pro-Display-Regular.otf */,
+				05B20141221E998400097319 /* SF-Pro-Display-RegularItalic.otf */,
+				05B20147221E998500097319 /* SF-Pro-Display-Semibold.otf */,
+				05B20143221E998400097319 /* SF-Pro-Text-Bold.otf */,
+				05B20148221E998500097319 /* SF-Pro-Text-Regular.otf */,
+				05B20138221E998400097319 /* SF-Pro-Text-RegularItalic.otf */,
+				05B20140221E998400097319 /* SF-Pro-Text-Semibold.otf */,
+				05B20142221E998400097319 /* SF-Pro-Text-SemiboldItalic.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		058C504E221BE0BF00993C43 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				05B20166221E999B00097319 /* arrow-to-right.png */,
+				05B2016E221E999B00097319 /* download.png */,
+				05B2014F221E999A00097319 /* follower-black.png */,
+				05B2016A221E999B00097319 /* Home.png */,
+				05B20154221E999A00097319 /* HomeHighlighted.png */,
+				05B20168221E999B00097319 /* Like-lightgray.png */,
+				05B2016F221E999B00097319 /* Like-orange-filled.png */,
+				05B20156221E999A00097319 /* Like-white.png */,
+				05B20155221E999A00097319 /* Like.png */,
+				05B20157221E999A00097319 /* Liked-orange.png */,
+				05B2015B221E999A00097319 /* LikedPlaylist-blue.png */,
+				05B2015D221E999A00097319 /* LikedPlaylist-orange.png */,
+				05B20169221E999B00097319 /* LikedTrack-blue.png */,
+				05B20163221E999B00097319 /* LikedTrack-orange.png */,
+				05B20162221E999B00097319 /* LoopBtn.png */,
+				05B2016D221E999B00097319 /* LoopHighlighted.png */,
+				05B2016C221E999B00097319 /* menu-black.png */,
+				05B2015E221E999A00097319 /* more-black.png */,
+				05B2016B221E999B00097319 /* more-vertical-black.png */,
+				05B2015C221E999A00097319 /* NextBtn.png */,
+				05B20165221E999B00097319 /* OfflineMusic.png */,
+				05B20167221E999B00097319 /* OfflineMusicHighlighted.png */,
+				05B20153221E999A00097319 /* Playback-count-black.png */,
+				05B20159221E999A00097319 /* Playback-count-lightgray.png */,
+				05B20152221E999A00097319 /* PlayBtn-black.png */,
+				05B2015A221E999A00097319 /* PlayBtn-blue.png */,
+				05B20150221E999A00097319 /* PlayBtn-white.png */,
+				05B2015F221E999A00097319 /* PlayBtn.png */,
+				05B20151221E999A00097319 /* PreviousBtn.png */,
+				05B20170221E999B00097319 /* Profile.png */,
+				05B20158221E999A00097319 /* ProfileHighlighted.png */,
+				05B2014E221E999A00097319 /* refresh-black.png */,
+				05B2014D221E999A00097319 /* Search.png */,
+				05B20160221E999B00097319 /* SearchHighlighted.png */,
+				05B20164221E999B00097319 /* ShuffleBtn.png */,
+				05B2014C221E999A00097319 /* ShuffleHighlighted.png */,
+				05B20161221E999B00097319 /* soundcloud-logo.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		058C504F221BE0F500993C43 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		058C5052221BE16B00993C43 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				058C5055221BE18200993C43 /* TabbarType */,
+				058C5054221BE17C00993C43 /* DesignableUIKit */,
+				058C5053221BE17600993C43 /* CustomCells */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		058C5053221BE17600993C43 /* CustomCells */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CustomCells;
+			sourceTree = "<group>";
+		};
+		058C5054221BE17C00993C43 /* DesignableUIKit */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DesignableUIKit;
+			sourceTree = "<group>";
+		};
+		058C5055221BE18200993C43 /* TabbarType */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TabbarType;
+			sourceTree = "<group>";
+		};
+		058C5056221BE18900993C43 /* Widget */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Widget;
+			sourceTree = "<group>";
+		};
+		AE5FA710C6530E86F3E44512 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				372900201454DB9BCD875342 /* Pods_MusicCloud.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF42B982832843B4812FD914 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5770F70701A63B48AFFDFDE9 /* Pods-MusicCloud.debug.xcconfig */,
+				D93FBE5A1D55478EC012AD56 /* Pods-MusicCloud.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +521,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 058C5021221BDF3700993C43 /* Build configuration list for PBXNativeTarget "MusicCloud" */;
 			buildPhases = (
+				828AC3205854B76B1E0EA30B /* [CP] Check Pods Manifest.lock */,
 				058C500B221BDF3600993C43 /* Sources */,
 				058C500C221BDF3600993C43 /* Frameworks */,
 				058C500D221BDF3600993C43 /* Resources */,
+				92B96BDAA3EACDE5556FA414 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -122,20 +574,137 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				056521CD221EB2FC00CC9A51 /* SF-Pro-Display-Semibold.otf in Resources */,
+				05B20194221E999B00097319 /* Like-orange-filled.png in Resources */,
+				05B2017F221E999B00097319 /* PlayBtn-blue.png in Resources */,
+				05B20192221E999B00097319 /* LoopHighlighted.png in Resources */,
+				056521C7221EB2FC00CC9A51 /* Montserrat-Regular.otf in Resources */,
+				056521C2221EB2FC00CC9A51 /* Helvetica-UltraCompressed.otf in Resources */,
+				056521CF221EB2FC00CC9A51 /* SF-Pro-Text-Regular.otf in Resources */,
+				05B2017A221E999B00097319 /* Like.png in Resources */,
+				05B2017D221E999B00097319 /* ProfileHighlighted.png in Resources */,
+				05B2018A221E999B00097319 /* OfflineMusic.png in Resources */,
+				056521CB221EB2FC00CC9A51 /* SF-Pro-Display-Regular.otf in Resources */,
+				05B20188221E999B00097319 /* LikedTrack-orange.png in Resources */,
+				05B20178221E999B00097319 /* Playback-count-black.png in Resources */,
+				05B20179221E999B00097319 /* HomeHighlighted.png in Resources */,
+				056521C3221EB2FC00CC9A51 /* HeroicCondensed-Medium.otf in Resources */,
+				05B2018C221E999B00097319 /* OfflineMusicHighlighted.png in Resources */,
+				056521CC221EB2FC00CC9A51 /* SF-Pro-Display-RegularItalic.otf in Resources */,
+				05B2017E221E999B00097319 /* Playback-count-lightgray.png in Resources */,
 				058C501D221BDF3700993C43 /* LaunchScreen.storyboard in Resources */,
-				058C501A221BDF3700993C43 /* Assets.xcassets in Resources */,
+				05B20171221E999B00097319 /* ShuffleHighlighted.png in Resources */,
+				056521D1221EB2FC00CC9A51 /* SF-Pro-Text-Semibold.otf in Resources */,
+				05B20191221E999B00097319 /* menu-black.png in Resources */,
+				056521C8221EB2FC00CC9A51 /* orbitron-black.otf in Resources */,
 				058C5018221BDF3600993C43 /* Main.storyboard in Resources */,
+				056521CE221EB2FC00CC9A51 /* SF-Pro-Text-Bold.otf in Resources */,
+				05B20183221E999B00097319 /* more-black.png in Resources */,
+				05B20176221E999B00097319 /* PreviousBtn.png in Resources */,
+				05B20173221E999B00097319 /* refresh-black.png in Resources */,
+				05B2018F221E999B00097319 /* Home.png in Resources */,
+				05B20190221E999B00097319 /* more-vertical-black.png in Resources */,
+				05B20180221E999B00097319 /* LikedPlaylist-blue.png in Resources */,
+				05B20172221E999B00097319 /* Search.png in Resources */,
+				05B20189221E999B00097319 /* ShuffleBtn.png in Resources */,
+				056521D0221EB2FC00CC9A51 /* SF-Pro-Text-RegularItalic.otf in Resources */,
+				056521C4221EB2FC00CC9A51 /* Montserrat-Black.otf in Resources */,
+				05B20184221E999B00097319 /* PlayBtn.png in Resources */,
+				05B2018D221E999B00097319 /* Like-lightgray.png in Resources */,
+				056521D2221EB2FC00CC9A51 /* SF-Pro-Text-SemiboldItalic.otf in Resources */,
+				05B20181221E999B00097319 /* NextBtn.png in Resources */,
+				05B20175221E999B00097319 /* PlayBtn-white.png in Resources */,
+				05B2017B221E999B00097319 /* Like-white.png in Resources */,
+				05B20195221E999B00097319 /* Profile.png in Resources */,
+				05B2017C221E999B00097319 /* Liked-orange.png in Resources */,
+				05B20174221E999B00097319 /* follower-black.png in Resources */,
+				05B2018E221E999B00097319 /* LikedTrack-blue.png in Resources */,
+				056521C6221EB2FC00CC9A51 /* Montserrat-Light.otf in Resources */,
+				056521C9221EB2FC00CC9A51 /* SF-Pro-Display-Bold.otf in Resources */,
+				05B20186221E999B00097319 /* soundcloud-logo.png in Resources */,
+				05B20193221E999B00097319 /* download.png in Resources */,
+				05B20177221E999B00097319 /* PlayBtn-black.png in Resources */,
+				056521CA221EB2FC00CC9A51 /* SF-Pro-Display-Light.otf in Resources */,
+				05B2018B221E999B00097319 /* arrow-to-right.png in Resources */,
+				05B20182221E999B00097319 /* LikedPlaylist-orange.png in Resources */,
+				05B20185221E999B00097319 /* SearchHighlighted.png in Resources */,
+				056521C1221EB2FC00CC9A51 /* Big-Caslon-Medium.ttf in Resources */,
+				05B20187221E999B00097319 /* LoopBtn.png in Resources */,
+				056521C5221EB2FC00CC9A51 /* Montserrat-Bold.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		828AC3205854B76B1E0EA30B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MusicCloud-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		92B96BDAA3EACDE5556FA414 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MusicCloud/Pods-MusicCloud-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireObjectMapper/AlamofireObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/BmoViewPager/BmoViewPager.framework",
+				"${BUILT_PRODUCTS_DIR}/ESTabBarController-swift/ESTabBarController_swift.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/XLPagerTabStrip/XLPagerTabStrip.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BmoViewPager.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ESTabBarController_swift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XLPagerTabStrip.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MusicCloud/Pods-MusicCloud-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		058C500B221BDF3600993C43 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				058C5015221BDF3600993C43 /* ViewController.swift in Sources */,
+				058C5051221BE11300993C43 /* ViewController.swift in Sources */,
 				058C5013221BDF3600993C43 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,8 +849,8 @@
 		};
 		058C5022221BDF3700993C43 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5770F70701A63B48AFFDFDE9 /* Pods-MusicCloud.debug.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TUJ524YTTG;
 				INFOPLIST_FILE = MusicCloud/Info.plist;
@@ -298,8 +867,8 @@
 		};
 		058C5023221BDF3700993C43 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D93FBE5A1D55478EC012AD56 /* Pods-MusicCloud.release.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TUJ524YTTG;
 				INFOPLIST_FILE = MusicCloud/Info.plist;
