@@ -7,11 +7,16 @@
 //
 
 import UIKit
+import Reusable
 
 class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
     }
+}
+
+extension ViewController: StoryboardSceneBased {
+    static var sceneStoryboard = Storyboards.main
 }
     

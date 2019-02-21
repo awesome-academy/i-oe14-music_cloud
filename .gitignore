@@ -43,6 +43,7 @@ playground.xcworkspace
 .Pods/
 .DS_Store
 Pods/
+Podfile.lock
 
 # CocoaPods
 #

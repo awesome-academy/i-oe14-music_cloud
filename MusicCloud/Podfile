@@ -15,4 +15,5 @@ target 'MusicCloud' do
 	pod 'XLPagerTabStrip'
 	pod 'AlamofireObjectMapper'
 	pod 'IQKeyboardManager'
+	pod 'Reusable'
 end

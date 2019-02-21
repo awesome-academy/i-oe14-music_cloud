@@ -25,6 +25,7 @@
 		056521D0221EB2FC00CC9A51 /* SF-Pro-Text-RegularItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 05B20138221E998400097319 /* SF-Pro-Text-RegularItalic.otf */; };
 		056521D1221EB2FC00CC9A51 /* SF-Pro-Text-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 05B20140221E998400097319 /* SF-Pro-Text-Semibold.otf */; };
 		056521D2221EB2FC00CC9A51 /* SF-Pro-Text-SemiboldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 05B20142221E998400097319 /* SF-Pro-Text-SemiboldItalic.otf */; };
+		056B68C9221EB80B002E6093 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056B68C8221EB80B002E6093 /* SplashViewController.swift */; };
 		058C5013221BDF3600993C43 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058C5012221BDF3600993C43 /* AppDelegate.swift */; };
 		058C5018221BDF3600993C43 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 058C5016221BDF3600993C43 /* Main.storyboard */; };
 		058C501D221BDF3700993C43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 058C501B221BDF3700993C43 /* LaunchScreen.storyboard */; };
@@ -66,10 +67,12 @@
 		05B20193221E999B00097319 /* download.png in Resources */ = {isa = PBXBuildFile; fileRef = 05B2016E221E999B00097319 /* download.png */; };
 		05B20194221E999B00097319 /* Like-orange-filled.png in Resources */ = {isa = PBXBuildFile; fileRef = 05B2016F221E999B00097319 /* Like-orange-filled.png */; };
 		05B20195221E999B00097319 /* Profile.png in Resources */ = {isa = PBXBuildFile; fileRef = 05B20170221E999B00097319 /* Profile.png */; };
+		05BD007E221FB1C500E67F01 /* Storyboards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05BD007D221FB1C500E67F01 /* Storyboards.swift */; };
 		B5A472751719214C13FCFCC5 /* Pods_MusicCloud.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 372900201454DB9BCD875342 /* Pods_MusicCloud.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		056B68C8221EB80B002E6093 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
 		058C500F221BDF3600993C43 /* MusicCloud.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicCloud.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		058C5012221BDF3600993C43 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		058C5017221BDF3600993C43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -131,6 +134,7 @@
 		05B2016E221E999B00097319 /* download.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = download.png; sourceTree = "<group>"; };
 		05B2016F221E999B00097319 /* Like-orange-filled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Like-orange-filled.png"; sourceTree = "<group>"; };
 		05B20170221E999B00097319 /* Profile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Profile.png; sourceTree = "<group>"; };
+		05BD007D221FB1C500E67F01 /* Storyboards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboards.swift; sourceTree = "<group>"; };
 		372900201454DB9BCD875342 /* Pods_MusicCloud.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MusicCloud.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5770F70701A63B48AFFDFDE9 /* Pods-MusicCloud.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MusicCloud.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MusicCloud/Pods-MusicCloud.debug.xcconfig"; sourceTree = "<group>"; };
 		D93FBE5A1D55478EC012AD56 /* Pods-MusicCloud.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MusicCloud.release.xcconfig"; path = "Pods/Target Support Files/Pods-MusicCloud/Pods-MusicCloud.release.xcconfig"; sourceTree = "<group>"; };
@@ -148,6 +152,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		053F1602221FC57C00FE06D9 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				053F1603221FC58800FE06D9 /* TableViewCell */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		053F1603221FC58800FE06D9 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
 		058C5006221BDF3600993C43 = {
 			isa = PBXGroup;
 			children = (
@@ -177,7 +196,6 @@
 				058C5042221BE05A00993C43 /* Resource */,
 				058C5043221BE05F00993C43 /* Scenes */,
 				058C504F221BE0F500993C43 /* Utilities */,
-				058C5052221BE16B00993C43 /* Views */,
 				058C5056221BE18900993C43 /* Widget */,
 			);
 			path = MusicCloud;
@@ -304,7 +322,16 @@
 		058C5043221BE05F00993C43 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
-				058C5045221BE07900993C43 /* ViewControllers */,
+				058C5052221BE16B00993C43 /* CustomView */,
+				053F1602221FC57C00FE06D9 /* Common */,
+				058C504C221BE0A200993C43 /* Tabbar */,
+				058C504B221BE09B00993C43 /* Splash */,
+				058C504A221BE09300993C43 /* Search */,
+				058C5049221BE08E00993C43 /* Player */,
+				058C5048221BE08800993C43 /* OfflineMusics */,
+				058C5047221BE08400993C43 /* Library */,
+				058C5046221BE08100993C43 /* Home */,
+				058C5050221BE11300993C43 /* ViewController.swift */,
 				058C5044221BE06400993C43 /* Storyboards */,
 			);
 			path = Scenes;
@@ -315,63 +342,55 @@
 			children = (
 				058C5016221BDF3600993C43 /* Main.storyboard */,
 				058C501B221BDF3700993C43 /* LaunchScreen.storyboard */,
+				05BD007D221FB1C500E67F01 /* Storyboards.swift */,
 			);
 			path = Storyboards;
-			sourceTree = "<group>";
-		};
-		058C5045221BE07900993C43 /* ViewControllers */ = {
-			isa = PBXGroup;
-			children = (
-				058C504C221BE0A200993C43 /* Tabbar */,
-				058C504B221BE09B00993C43 /* Splash */,
-				058C504A221BE09300993C43 /* Search */,
-				058C5049221BE08E00993C43 /* Player */,
-				058C5048221BE08800993C43 /* OfflineMusics */,
-				058C5047221BE08400993C43 /* Library */,
-				058C5046221BE08100993C43 /* Home */,
-				058C5050221BE11300993C43 /* ViewController.swift */,
-			);
-			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 		058C5046221BE08100993C43 /* Home */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = Home;
+			name = Home;
+			path = ViewControllers/Home;
 			sourceTree = "<group>";
 		};
 		058C5047221BE08400993C43 /* Library */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = Library;
+			name = Library;
+			path = ViewControllers/Library;
 			sourceTree = "<group>";
 		};
 		058C5048221BE08800993C43 /* OfflineMusics */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = OfflineMusics;
+			name = OfflineMusics;
+			path = ViewControllers/OfflineMusics;
 			sourceTree = "<group>";
 		};
 		058C5049221BE08E00993C43 /* Player */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = Player;
+			name = Player;
+			path = ViewControllers/Player;
 			sourceTree = "<group>";
 		};
 		058C504A221BE09300993C43 /* Search */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = Search;
+			name = Search;
+			path = ViewControllers/Search;
 			sourceTree = "<group>";
 		};
 		058C504B221BE09B00993C43 /* Splash */ = {
 			isa = PBXGroup;
 			children = (
+				056B68C8221EB80B002E6093 /* SplashViewController.swift */,
 			);
 			path = Splash;
 			sourceTree = "<group>";
@@ -379,8 +398,10 @@
 		058C504C221BE0A200993C43 /* Tabbar */ = {
 			isa = PBXGroup;
 			children = (
+				058C5055221BE18200993C43 /* TabbarType */,
 			);
-			path = Tabbar;
+			name = Tabbar;
+			path = ViewControllers/Tabbar;
 			sourceTree = "<group>";
 		};
 		058C504D221BE0B400993C43 /* Fonts */ = {
@@ -459,21 +480,13 @@
 			path = Utilities;
 			sourceTree = "<group>";
 		};
-		058C5052221BE16B00993C43 /* Views */ = {
+		058C5052221BE16B00993C43 /* CustomView */ = {
 			isa = PBXGroup;
 			children = (
-				058C5055221BE18200993C43 /* TabbarType */,
 				058C5054221BE17C00993C43 /* DesignableUIKit */,
-				058C5053221BE17600993C43 /* CustomCells */,
 			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		058C5053221BE17600993C43 /* CustomCells */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = CustomCells;
+			name = CustomView;
+			path = ../CustomView;
 			sourceTree = "<group>";
 		};
 		058C5054221BE17C00993C43 /* DesignableUIKit */ = {
@@ -672,10 +685,12 @@
 				"${BUILT_PRODUCTS_DIR}/AlamofireObjectMapper/AlamofireObjectMapper.framework",
 				"${BUILT_PRODUCTS_DIR}/BmoViewPager/BmoViewPager.framework",
 				"${BUILT_PRODUCTS_DIR}/ESTabBarController-swift/ESTabBarController_swift.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework",
 				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
 				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
 				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
 				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Reusable/Reusable.framework",
 				"${BUILT_PRODUCTS_DIR}/XLPagerTabStrip/XLPagerTabStrip.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -686,10 +701,12 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireObjectMapper.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BmoViewPager.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ESTabBarController_swift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManager.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reusable.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XLPagerTabStrip.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -704,6 +721,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05BD007E221FB1C500E67F01 /* Storyboards.swift in Sources */,
+				056B68C9221EB80B002E6093 /* SplashViewController.swift in Sources */,
 				058C5051221BE11300993C43 /* ViewController.swift in Sources */,
 				058C5013221BDF3600993C43 /* AppDelegate.swift in Sources */,
 			);
