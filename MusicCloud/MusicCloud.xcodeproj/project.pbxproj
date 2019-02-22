@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		05493DD5221FFBDB004380EE /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05493DD4221FFBDB004380EE /* HomeViewController.swift */; };
+		05493DD7221FFBEA004380EE /* LibraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05493DD6221FFBEA004380EE /* LibraryViewController.swift */; };
+		05493DD9221FFBF2004380EE /* OfflineMusicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05493DD8221FFBF2004380EE /* OfflineMusicViewController.swift */; };
+		05493DDB221FFBFD004380EE /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05493DDA221FFBFD004380EE /* SearchViewController.swift */; };
+		05493DDD221FFC0A004380EE /* MainTabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05493DDC221FFC0A004380EE /* MainTabbarController.swift */; };
+		05493DE1221FFEF7004380EE /* BasicContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05493DE0221FFEF7004380EE /* BasicContentView.swift */; };
+		05493DE3221FFF1E004380EE /* BouncesContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05493DE2221FFF1E004380EE /* BouncesContentView.swift */; };
 		056521C1221EB2FC00CC9A51 /* Big-Caslon-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 05B20139221E998400097319 /* Big-Caslon-Medium.ttf */; };
 		056521C2221EB2FC00CC9A51 /* Helvetica-UltraCompressed.otf in Resources */ = {isa = PBXBuildFile; fileRef = 05B20145221E998500097319 /* Helvetica-UltraCompressed.otf */; };
 		056521C3221EB2FC00CC9A51 /* HeroicCondensed-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 05B2013B221E998400097319 /* HeroicCondensed-Medium.otf */; };
@@ -26,10 +33,10 @@
 		056521D1221EB2FC00CC9A51 /* SF-Pro-Text-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 05B20140221E998400097319 /* SF-Pro-Text-Semibold.otf */; };
 		056521D2221EB2FC00CC9A51 /* SF-Pro-Text-SemiboldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 05B20142221E998400097319 /* SF-Pro-Text-SemiboldItalic.otf */; };
 		056B68C9221EB80B002E6093 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056B68C8221EB80B002E6093 /* SplashViewController.swift */; };
+		056EC13F22239D720042C22F /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056EC13E22239D720042C22F /* UIColor.swift */; };
 		058C5013221BDF3600993C43 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058C5012221BDF3600993C43 /* AppDelegate.swift */; };
 		058C5018221BDF3600993C43 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 058C5016221BDF3600993C43 /* Main.storyboard */; };
 		058C501D221BDF3700993C43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 058C501B221BDF3700993C43 /* LaunchScreen.storyboard */; };
-		058C5051221BE11300993C43 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058C5050221BE11300993C43 /* ViewController.swift */; };
 		05B20171221E999B00097319 /* ShuffleHighlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = 05B2014C221E999A00097319 /* ShuffleHighlighted.png */; };
 		05B20172221E999B00097319 /* Search.png in Resources */ = {isa = PBXBuildFile; fileRef = 05B2014D221E999A00097319 /* Search.png */; };
 		05B20173221E999B00097319 /* refresh-black.png in Resources */ = {isa = PBXBuildFile; fileRef = 05B2014E221E999A00097319 /* refresh-black.png */; };
@@ -72,13 +79,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		05493DD4221FFBDB004380EE /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HomeViewController.swift; path = MusicCloud/Scenes/HomeViewController.swift; sourceTree = SOURCE_ROOT; };
+		05493DD6221FFBEA004380EE /* LibraryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LibraryViewController.swift; path = MusicCloud/Scenes/LibraryViewController.swift; sourceTree = SOURCE_ROOT; };
+		05493DD8221FFBF2004380EE /* OfflineMusicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = OfflineMusicViewController.swift; path = MusicCloud/Scenes/OfflineMusicViewController.swift; sourceTree = SOURCE_ROOT; };
+		05493DDA221FFBFD004380EE /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SearchViewController.swift; path = MusicCloud/Scenes/SearchViewController.swift; sourceTree = SOURCE_ROOT; };
+		05493DDC221FFC0A004380EE /* MainTabbarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MainTabbarController.swift; path = MusicCloud/Scenes/MainTabbarController.swift; sourceTree = SOURCE_ROOT; };
+		05493DE0221FFEF7004380EE /* BasicContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BasicContentView.swift; path = MusicCloud/Scenes/BasicContentView.swift; sourceTree = SOURCE_ROOT; };
+		05493DE2221FFF1E004380EE /* BouncesContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BouncesContentView.swift; path = MusicCloud/Scenes/BouncesContentView.swift; sourceTree = SOURCE_ROOT; };
 		056B68C8221EB80B002E6093 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		056EC13E22239D720042C22F /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UIColor.swift; path = MusicCloud/Extension/UIColor.swift; sourceTree = SOURCE_ROOT; };
 		058C500F221BDF3600993C43 /* MusicCloud.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicCloud.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		058C5012221BDF3600993C43 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		058C5017221BDF3600993C43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		058C501C221BDF3700993C43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		058C501E221BDF3700993C43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		058C5050221BE11300993C43 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		05B20138221E998400097319 /* SF-Pro-Text-RegularItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Text-RegularItalic.otf"; sourceTree = "<group>"; };
 		05B20139221E998400097319 /* Big-Caslon-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Big-Caslon-Medium.ttf"; sourceTree = "<group>"; };
 		05B2013A221E998400097319 /* SF-Pro-Display-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Regular.otf"; sourceTree = "<group>"; };
@@ -191,10 +205,10 @@
 				058C5024221BDFC500993C43 /* Application */,
 				058C5035221BDFE900993C43 /* Data */,
 				058C5040221BE04F00993C43 /* Extension */,
-				058C501E221BDF3700993C43 /* Info.plist */,
 				058C5041221BE05400993C43 /* Repository */,
 				058C5042221BE05A00993C43 /* Resource */,
 				058C5043221BE05F00993C43 /* Scenes */,
+				058C501E221BDF3700993C43 /* Info.plist */,
 				058C504F221BE0F500993C43 /* Utilities */,
 				058C5056221BE18900993C43 /* Widget */,
 			);
@@ -299,6 +313,7 @@
 		058C5040221BE04F00993C43 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				056EC13E22239D720042C22F /* UIColor.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -331,7 +346,6 @@
 				058C5048221BE08800993C43 /* OfflineMusics */,
 				058C5047221BE08400993C43 /* Library */,
 				058C5046221BE08100993C43 /* Home */,
-				058C5050221BE11300993C43 /* ViewController.swift */,
 				058C5044221BE06400993C43 /* Storyboards */,
 			);
 			path = Scenes;
@@ -350,6 +364,7 @@
 		058C5046221BE08100993C43 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				05493DD4221FFBDB004380EE /* HomeViewController.swift */,
 			);
 			name = Home;
 			path = ViewControllers/Home;
@@ -358,6 +373,7 @@
 		058C5047221BE08400993C43 /* Library */ = {
 			isa = PBXGroup;
 			children = (
+				05493DD6221FFBEA004380EE /* LibraryViewController.swift */,
 			);
 			name = Library;
 			path = ViewControllers/Library;
@@ -366,6 +382,7 @@
 		058C5048221BE08800993C43 /* OfflineMusics */ = {
 			isa = PBXGroup;
 			children = (
+				05493DD8221FFBF2004380EE /* OfflineMusicViewController.swift */,
 			);
 			name = OfflineMusics;
 			path = ViewControllers/OfflineMusics;
@@ -382,6 +399,7 @@
 		058C504A221BE09300993C43 /* Search */ = {
 			isa = PBXGroup;
 			children = (
+				05493DDA221FFBFD004380EE /* SearchViewController.swift */,
 			);
 			name = Search;
 			path = ViewControllers/Search;
@@ -399,6 +417,7 @@
 			isa = PBXGroup;
 			children = (
 				058C5055221BE18200993C43 /* TabbarType */,
+				05493DDC221FFC0A004380EE /* MainTabbarController.swift */,
 			);
 			name = Tabbar;
 			path = ViewControllers/Tabbar;
@@ -499,6 +518,8 @@
 		058C5055221BE18200993C43 /* TabbarType */ = {
 			isa = PBXGroup;
 			children = (
+				05493DE0221FFEF7004380EE /* BasicContentView.swift */,
+				05493DE2221FFF1E004380EE /* BouncesContentView.swift */,
 			);
 			path = TabbarType;
 			sourceTree = "<group>";
@@ -721,9 +742,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05493DD5221FFBDB004380EE /* HomeViewController.swift in Sources */,
 				05BD007E221FB1C500E67F01 /* Storyboards.swift in Sources */,
+				05493DE1221FFEF7004380EE /* BasicContentView.swift in Sources */,
+				05493DDB221FFBFD004380EE /* SearchViewController.swift in Sources */,
 				056B68C9221EB80B002E6093 /* SplashViewController.swift in Sources */,
-				058C5051221BE11300993C43 /* ViewController.swift in Sources */,
+				05493DDD221FFC0A004380EE /* MainTabbarController.swift in Sources */,
+				05493DE3221FFF1E004380EE /* BouncesContentView.swift in Sources */,
+				056EC13F22239D720042C22F /* UIColor.swift in Sources */,
+				05493DD9221FFBF2004380EE /* OfflineMusicViewController.swift in Sources */,
+				05493DD7221FFBEA004380EE /* LibraryViewController.swift in Sources */,
 				058C5013221BDF3600993C43 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

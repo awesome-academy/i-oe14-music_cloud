@@ -62,6 +62,92 @@
             </objects>
             <point key="canvasLocation" x="878" y="133"/>
         </scene>
+        <!--Search-->
+        <scene sceneID="giw-TW-irT">
+            <objects>
+                <viewController storyboardIdentifier="SearchViewController" id="miH-g9-15F" customClass="SearchViewController" customModule="MusicCloud" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3UI-pK-mrZ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="Pkd-9V-ipc"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Search" id="kCF-x8-1T9"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VtP-ix-oTe" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2602" y="453"/>
+        </scene>
+        <!--Library-->
+        <scene sceneID="s1b-ac-5gF">
+            <objects>
+                <viewController storyboardIdentifier="LibraryViewController" id="D8b-TV-LeQ" customClass="LibraryViewController" customModule="MusicCloud" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="xMl-Jb-Lwp">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="ahO-iW-4xI"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Library" id="igJ-wo-rfc"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="a5W-aG-799" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2602" y="1157"/>
+        </scene>
+        <!--Home-->
+        <scene sceneID="nht-gv-gjh">
+            <objects>
+                <viewController storyboardIdentifier="HomeViewController" id="yn0-NS-m4f" customClass="HomeViewController" customModule="MusicCloud" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ZhL-Hc-fgP">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="sQj-jX-NLY"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Home" id="9OE-Ji-qyY"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zFQ-cZ-aOx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2602" y="-921"/>
+        </scene>
+        <!--Offline Music-->
+        <scene sceneID="I87-NL-Jgd">
+            <objects>
+                <viewController storyboardIdentifier="OfflineMusicViewController" id="B61-XI-pJb" customClass="OfflineMusicViewController" customModule="MusicCloud" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="I97-HW-AQJ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <viewLayoutGuide key="safeArea" id="Z7T-Pk-U1f"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Offline Music" id="SRP-dh-Icn"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dlP-cU-MBP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2602" y="-211"/>
+        </scene>
+        <!--Main Tabbar Controller-->
+        <scene sceneID="M1S-ch-oX0">
+            <objects>
+                <tabBarController storyboardIdentifier="MainTabbarController" id="Y5F-1V-bhz" customClass="MainTabbarController" customModule="MusicCloud" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="CZX-v0-ehl">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="B61-XI-pJb" kind="relationship" relationship="viewControllers" id="tf6-ud-3Ry"/>
+                        <segue destination="miH-g9-15F" kind="relationship" relationship="viewControllers" id="cdg-ch-VXu"/>
+                        <segue destination="yn0-NS-m4f" kind="relationship" relationship="viewControllers" id="4mE-Pm-caU"/>
+                        <segue destination="D8b-TV-LeQ" kind="relationship" relationship="viewControllers" id="Yuc-dE-yl7"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LOB-jf-Ka6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1642" y="133"/>
+        </scene>
     </scenes>
     <resources>
         <image name="soundcloud-logo.png" width="75" height="33"/>
