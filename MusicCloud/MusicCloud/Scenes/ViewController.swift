@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Reusable
 
 class ViewController: UIViewController {
     
@@ -14,3 +15,8 @@ class ViewController: UIViewController {
         super.viewDidLoad()
     }
 }
+
+extension ViewController: StoryboardSceneBased {
+    static var sceneStoryboard = Storyboards.main
+}
+    

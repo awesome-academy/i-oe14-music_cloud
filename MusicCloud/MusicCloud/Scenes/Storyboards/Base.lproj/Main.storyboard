@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="uz5-Q3-1wV">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -9,7 +13,7 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ViewController" id="BYZ-38-t0r" customClass="ViewController" customModule="MusicCloud" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -19,6 +23,47 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="106" y="133"/>
+        </scene>
+        <!--Splash View Controller-->
+        <scene sceneID="7CG-A0-e8G">
+            <objects>
+                <viewController storyboardIdentifier="SplashViewController" id="uz5-Q3-1wV" customClass="SplashViewController" customModule="MusicCloud" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="IwO-F1-t9W">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="soundcloud-logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="paG-dl-LEa">
+                                <rect key="frame" x="150" y="277" width="75" height="33"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="j8x-xF-IoA">
+                                <rect key="frame" x="157.5" y="330" width="60" height="60"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="7fE-mv-dTa"/>
+                                    <constraint firstAttribute="width" constant="60" id="hZ0-We-p2e"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.13725490196078433" green="0.74901960784313726" blue="0.90980392156862744" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="j8x-xF-IoA" firstAttribute="top" secondItem="paG-dl-LEa" secondAttribute="bottom" constant="20" id="O9g-A3-3gx"/>
+                            <constraint firstItem="paG-dl-LEa" firstAttribute="centerX" secondItem="2Ql-AH-2ig" secondAttribute="centerX" id="YKP-Hc-UkO"/>
+                            <constraint firstItem="paG-dl-LEa" firstAttribute="centerY" secondItem="2Ql-AH-2ig" secondAttribute="centerY" constant="-50" id="i2V-Bj-K2B"/>
+                            <constraint firstItem="j8x-xF-IoA" firstAttribute="centerX" secondItem="2Ql-AH-2ig" secondAttribute="centerX" id="nJt-th-V87"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="2Ql-AH-2ig"/>
+                    </view>
+                    <connections>
+                        <outlet property="progressView" destination="j8x-xF-IoA" id="L2W-kj-c8O"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ShY-hu-dHr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="878" y="133"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="soundcloud-logo.png" width="75" height="33"/>
+    </resources>
 </document>
