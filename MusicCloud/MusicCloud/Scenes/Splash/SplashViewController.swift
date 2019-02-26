@@ -34,8 +34,10 @@ final class SplashViewController: UIViewController {
     
     private func prepareViewController() {
         DispatchQueue.main.asyncAfter(deadline: .now() + 3) {
-            let viewController = ViewController.instantiate()
-            self.present(viewController, animated: true, completion: nil)
+            let tabbarController = MainTabbarController.instantiate()
+            if let app = UIApplication.shared.delegate as? AppDelegate {
+                app.window?.rootViewController = tabbarController
+            }
         }
     }
 }
