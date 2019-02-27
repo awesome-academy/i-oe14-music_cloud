@@ -55,6 +55,10 @@
 		056521D2221EB2FC00CC9A51 /* SF-Pro-Text-SemiboldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 05B20142221E998400097319 /* SF-Pro-Text-SemiboldItalic.otf */; };
 		056B68C9221EB80B002E6093 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056B68C8221EB80B002E6093 /* SplashViewController.swift */; };
 		056EC13F22239D720042C22F /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056EC13E22239D720042C22F /* UIColor.swift */; };
+		058AA15A22268C250009AFEE /* HomeTrackCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058AA15822268C240009AFEE /* HomeTrackCell.swift */; };
+		058AA15B22268C250009AFEE /* HomeTrackCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 058AA15922268C250009AFEE /* HomeTrackCell.xib */; };
+		058AA15D22268D920009AFEE /* default-image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 058AA15C22268D920009AFEE /* default-image.jpg */; };
+		058AA15F22268EDE0009AFEE /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058AA15E22268EDE0009AFEE /* UIImage.swift */; };
 		058C5013221BDF3600993C43 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058C5012221BDF3600993C43 /* AppDelegate.swift */; };
 		058C5018221BDF3600993C43 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 058C5016221BDF3600993C43 /* Main.storyboard */; };
 		058C501D221BDF3700993C43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 058C501B221BDF3700993C43 /* LaunchScreen.storyboard */; };
@@ -132,6 +136,10 @@
 		05493DE2221FFF1E004380EE /* BouncesContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BouncesContentView.swift; path = MusicCloud/Scenes/BouncesContentView.swift; sourceTree = SOURCE_ROOT; };
 		056B68C8221EB80B002E6093 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
 		056EC13E22239D720042C22F /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UIColor.swift; path = MusicCloud/Extension/UIColor.swift; sourceTree = SOURCE_ROOT; };
+		058AA15822268C240009AFEE /* HomeTrackCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HomeTrackCell.swift; path = MusicCloud/Scenes/HomeTrackCell.swift; sourceTree = SOURCE_ROOT; };
+		058AA15922268C250009AFEE /* HomeTrackCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = HomeTrackCell.xib; path = MusicCloud/Scenes/HomeTrackCell.xib; sourceTree = SOURCE_ROOT; };
+		058AA15C22268D920009AFEE /* default-image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "default-image.jpg"; sourceTree = "<group>"; };
+		058AA15E22268EDE0009AFEE /* UIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImage.swift; sourceTree = "<group>"; };
 		058C500F221BDF3600993C43 /* MusicCloud.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicCloud.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		058C5012221BDF3600993C43 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		058C5017221BDF3600993C43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -378,6 +386,7 @@
 			children = (
 				05490A6D22252F01008F0D38 /* UIViewController.swift */,
 				056EC13E22239D720042C22F /* UIColor.swift */,
+				058AA15E22268EDE0009AFEE /* UIImage.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -432,6 +441,8 @@
 			isa = PBXGroup;
 			children = (
 				05493DD4221FFBDB004380EE /* HomeViewController.swift */,
+				058AA15822268C240009AFEE /* HomeTrackCell.swift */,
+				058AA15922268C250009AFEE /* HomeTrackCell.xib */,
 			);
 			name = Home;
 			path = ViewControllers/Home;
@@ -529,6 +540,7 @@
 				05B20155221E999A00097319 /* Like.png */,
 				05B20157221E999A00097319 /* Liked-orange.png */,
 				05B2015B221E999A00097319 /* LikedPlaylist-blue.png */,
+				058AA15C22268D920009AFEE /* default-image.jpg */,
 				05B2015D221E999A00097319 /* LikedPlaylist-orange.png */,
 				05B20169221E999B00097319 /* LikedTrack-blue.png */,
 				05B20163221E999B00097319 /* LikedTrack-orange.png */,
@@ -698,6 +710,7 @@
 				058C501D221BDF3700993C43 /* LaunchScreen.storyboard in Resources */,
 				05B20171221E999B00097319 /* ShuffleHighlighted.png in Resources */,
 				056521D1221EB2FC00CC9A51 /* SF-Pro-Text-Semibold.otf in Resources */,
+				058AA15D22268D920009AFEE /* default-image.jpg in Resources */,
 				05B20191221E999B00097319 /* menu-black.png in Resources */,
 				056521C8221EB2FC00CC9A51 /* orbitron-black.otf in Resources */,
 				058C5018221BDF3600993C43 /* Main.storyboard in Resources */,
@@ -733,6 +746,7 @@
 				05B20185221E999B00097319 /* SearchHighlighted.png in Resources */,
 				056521C1221EB2FC00CC9A51 /* Big-Caslon-Medium.ttf in Resources */,
 				05B20187221E999B00097319 /* LoopBtn.png in Resources */,
+				058AA15B22268C250009AFEE /* HomeTrackCell.xib in Resources */,
 				056521C5221EB2FC00CC9A51 /* Montserrat-Bold.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -829,6 +843,7 @@
 				05493DDB221FFBFD004380EE /* SearchViewController.swift in Sources */,
 				05490A4A22252E61008F0D38 /* BaseResult.swift in Sources */,
 				05490A5822252EBA008F0D38 /* SearchRequest.swift in Sources */,
+				058AA15A22268C250009AFEE /* HomeTrackCell.swift in Sources */,
 				05490A5722252EBA008F0D38 /* TracksByGenreRequest.swift in Sources */,
 				056B68C9221EB80B002E6093 /* SplashViewController.swift in Sources */,
 				05490A6022252EC2008F0D38 /* SearchPlaylistResponse.swift in Sources */,
@@ -843,6 +858,7 @@
 				05490A7622252F17008F0D38 /* PlaylistRepository.swift in Sources */,
 				05490A6E22252F01008F0D38 /* UIViewController.swift in Sources */,
 				058C5013221BDF3600993C43 /* AppDelegate.swift in Sources */,
+				058AA15F22268EDE0009AFEE /* UIImage.swift in Sources */,
 				05490A4C22252E80008F0D38 /* BaseError.swift in Sources */,
 				05490A6A22252EFB008F0D38 /* Track.swift in Sources */,
 			);
