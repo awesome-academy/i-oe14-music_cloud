@@ -45,6 +45,9 @@ playground.xcworkspace
 Pods/
 Podfile.lock
 
+#APIKey 
+MusicCloud/MusicCloud/Utilities/APIKey.swift
+
 # CocoaPods
 #
 # We recommend against adding the Pods directory to your .gitignore. However
