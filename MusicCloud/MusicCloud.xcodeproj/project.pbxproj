@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		05430FF722272C7D00E48655 /* TrackCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05430FF522272C7D00E48655 /* TrackCollectionViewCell.swift */; };
+		05430FF822272C7D00E48655 /* TrackCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05430FF622272C7D00E48655 /* TrackCollectionViewCell.xib */; };
+		05430FFB22272D2700E48655 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05430FF922272D2700E48655 /* TableViewCell.swift */; };
+		05430FFC22272D2700E48655 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05430FFA22272D2700E48655 /* TableViewCell.xib */; };
 		05490A4822252E43008F0D38 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05490A4722252E43008F0D38 /* APIService.swift */; };
 		05490A4A22252E61008F0D38 /* BaseResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05490A4922252E61008F0D38 /* BaseResult.swift */; };
 		05490A4C22252E80008F0D38 /* BaseError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05490A4B22252E80008F0D38 /* BaseError.swift */; };
@@ -97,11 +101,15 @@
 		05B20195221E999B00097319 /* Profile.png in Resources */ = {isa = PBXBuildFile; fileRef = 05B20170221E999B00097319 /* Profile.png */; };
 		05BD007E221FB1C500E67F01 /* Storyboards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05BD007D221FB1C500E67F01 /* Storyboards.swift */; };
 		05BD32662225420500AA6537 /* HTTPStatusCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05BD32652225420500AA6537 /* HTTPStatusCode.swift */; };
-		05BD3268222549D000AA6537 /* APIKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05BD3267222549D000AA6537 /* APIKey.swift */; };
+		05E688E62226A35C00C2F4EC /* APIKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05E688E52226A35C00C2F4EC /* APIKey.swift */; };
 		B5A472751719214C13FCFCC5 /* Pods_MusicCloud.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 372900201454DB9BCD875342 /* Pods_MusicCloud.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		05430FF522272C7D00E48655 /* TrackCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TrackCollectionViewCell.swift; path = MusicCloud/Scenes/TrackCollectionViewCell.swift; sourceTree = SOURCE_ROOT; };
+		05430FF622272C7D00E48655 /* TrackCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = TrackCollectionViewCell.xib; path = MusicCloud/Scenes/TrackCollectionViewCell.xib; sourceTree = SOURCE_ROOT; };
+		05430FF922272D2700E48655 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TableViewCell.swift; path = MusicCloud/Scenes/TableViewCell.swift; sourceTree = SOURCE_ROOT; };
+		05430FFA22272D2700E48655 /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = TableViewCell.xib; path = MusicCloud/Scenes/TableViewCell.xib; sourceTree = SOURCE_ROOT; };
 		05490A4722252E43008F0D38 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = APIService.swift; path = MusicCloud/APIService.swift; sourceTree = SOURCE_ROOT; };
 		05490A4922252E61008F0D38 /* BaseResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BaseResult.swift; path = MusicCloud/BaseResult.swift; sourceTree = SOURCE_ROOT; };
 		05490A4B22252E80008F0D38 /* BaseError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BaseError.swift; path = MusicCloud/BaseError.swift; sourceTree = SOURCE_ROOT; };
@@ -194,7 +202,7 @@
 		05B20170221E999B00097319 /* Profile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Profile.png; sourceTree = "<group>"; };
 		05BD007D221FB1C500E67F01 /* Storyboards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboards.swift; sourceTree = "<group>"; };
 		05BD32652225420500AA6537 /* HTTPStatusCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HTTPStatusCode.swift; path = Response/HTTPStatusCode.swift; sourceTree = SOURCE_ROOT; };
-		05BD3267222549D000AA6537 /* APIKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIKey.swift; sourceTree = "<group>"; };
+		05E688E52226A35C00C2F4EC /* APIKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIKey.swift; sourceTree = "<group>"; };
 		372900201454DB9BCD875342 /* Pods_MusicCloud.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MusicCloud.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5770F70701A63B48AFFDFDE9 /* Pods-MusicCloud.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MusicCloud.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MusicCloud/Pods-MusicCloud.debug.xcconfig"; sourceTree = "<group>"; };
 		D93FBE5A1D55478EC012AD56 /* Pods-MusicCloud.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MusicCloud.release.xcconfig"; path = "Pods/Target Support Files/Pods-MusicCloud/Pods-MusicCloud.release.xcconfig"; sourceTree = "<group>"; };
@@ -432,6 +440,10 @@
 			isa = PBXGroup;
 			children = (
 				05493DD4221FFBDB004380EE /* HomeViewController.swift */,
+				05430FF522272C7D00E48655 /* TrackCollectionViewCell.swift */,
+				05430FF622272C7D00E48655 /* TrackCollectionViewCell.xib */,
+				05430FF922272D2700E48655 /* TableViewCell.swift */,
+				05430FFA22272D2700E48655 /* TableViewCell.xib */,
 			);
 			name = Home;
 			path = ViewControllers/Home;
@@ -563,7 +575,7 @@
 			isa = PBXGroup;
 			children = (
 				05490A6122252EE0008F0D38 /* APIConstant.swift */,
-				05BD3267222549D000AA6537 /* APIKey.swift */,
+				05E688E52226A35C00C2F4EC /* APIKey.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -677,6 +689,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05430FFC22272D2700E48655 /* TableViewCell.xib in Resources */,
 				056521CD221EB2FC00CC9A51 /* SF-Pro-Display-Semibold.otf in Resources */,
 				05B20194221E999B00097319 /* Like-orange-filled.png in Resources */,
 				05B2017F221E999B00097319 /* PlayBtn-blue.png in Resources */,
@@ -685,6 +698,7 @@
 				056521C2221EB2FC00CC9A51 /* Helvetica-UltraCompressed.otf in Resources */,
 				056521CF221EB2FC00CC9A51 /* SF-Pro-Text-Regular.otf in Resources */,
 				05B2017A221E999B00097319 /* Like.png in Resources */,
+				05430FF822272C7D00E48655 /* TrackCollectionViewCell.xib in Resources */,
 				05B2017D221E999B00097319 /* ProfileHighlighted.png in Resources */,
 				05B2018A221E999B00097319 /* OfflineMusic.png in Resources */,
 				056521CB221EB2FC00CC9A51 /* SF-Pro-Display-Regular.otf in Resources */,
@@ -827,10 +841,12 @@
 				05490A5F22252EC2008F0D38 /* SearchTrackResponse.swift in Sources */,
 				05490A6222252EE0008F0D38 /* APIConstant.swift in Sources */,
 				05493DDB221FFBFD004380EE /* SearchViewController.swift in Sources */,
+				05E688E62226A35C00C2F4EC /* APIKey.swift in Sources */,
 				05490A4A22252E61008F0D38 /* BaseResult.swift in Sources */,
 				05490A5822252EBA008F0D38 /* SearchRequest.swift in Sources */,
 				05490A5722252EBA008F0D38 /* TracksByGenreRequest.swift in Sources */,
 				056B68C9221EB80B002E6093 /* SplashViewController.swift in Sources */,
+				05430FFB22272D2700E48655 /* TableViewCell.swift in Sources */,
 				05490A6022252EC2008F0D38 /* SearchPlaylistResponse.swift in Sources */,
 				05493DDD221FFC0A004380EE /* MainTabbarController.swift in Sources */,
 				05490A6922252EFB008F0D38 /* BaseModel.swift in Sources */,
@@ -838,8 +854,8 @@
 				056EC13F22239D720042C22F /* UIColor.swift in Sources */,
 				05493DD9221FFBF2004380EE /* OfflineMusicViewController.swift in Sources */,
 				05493DD7221FFBEA004380EE /* LibraryViewController.swift in Sources */,
+				05430FF722272C7D00E48655 /* TrackCollectionViewCell.swift in Sources */,
 				05490A4822252E43008F0D38 /* APIService.swift in Sources */,
-				05BD3268222549D000AA6537 /* APIKey.swift in Sources */,
 				05490A7622252F17008F0D38 /* PlaylistRepository.swift in Sources */,
 				05490A6E22252F01008F0D38 /* UIViewController.swift in Sources */,
 				058C5013221BDF3600993C43 /* AppDelegate.swift in Sources */,

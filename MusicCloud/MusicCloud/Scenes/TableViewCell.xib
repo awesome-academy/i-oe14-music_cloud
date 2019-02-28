@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="SF-Pro-Display-Regular.otf">
+            <string>SFProDisplay-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="849" id="KGk-i7-Jjw" customClass="TableViewCell" customModule="MusicCloud" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="963" height="849"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="963" height="848.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rock" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6rv-6C-uQ5">
+                        <rect key="frame" x="15" y="15" width="938" height="23.5"/>
+                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Popular tracks from the SoundCloud community" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E3F-34-ad6">
+                        <rect key="frame" x="15" y="43.5" width="938" height="14"/>
+                        <fontDescription key="fontDescription" name="SFProDisplay-Regular" family="SF Pro Display" pointSize="12"/>
+                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="0yJ-uU-eWK">
+                        <rect key="frame" x="15" y="67.5" width="948" height="766"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="8JY-Mq-QRz">
+                            <size key="itemSize" width="50" height="50"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        </collectionViewFlowLayout>
+                    </collectionView>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HNx-4Z-bTY">
+                        <rect key="frame" x="0.0" y="833.5" width="963" height="15"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="15" id="TiZ-de-QGv"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="HNx-4Z-bTY" secondAttribute="bottom" id="9GG-UO-uhq"/>
+                    <constraint firstAttribute="trailing" secondItem="0yJ-uU-eWK" secondAttribute="trailing" id="A0u-u9-zFX"/>
+                    <constraint firstAttribute="trailing" secondItem="HNx-4Z-bTY" secondAttribute="trailing" id="D8E-nA-drs"/>
+                    <constraint firstAttribute="trailing" secondItem="6rv-6C-uQ5" secondAttribute="trailing" constant="10" id="Fz8-qd-fgQ"/>
+                    <constraint firstItem="0yJ-uU-eWK" firstAttribute="top" secondItem="E3F-34-ad6" secondAttribute="bottom" constant="10" id="Urb-h2-wfn"/>
+                    <constraint firstItem="6rv-6C-uQ5" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="bB7-Dt-lah"/>
+                    <constraint firstItem="6rv-6C-uQ5" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="15" id="cnx-4o-2Z4"/>
+                    <constraint firstAttribute="trailing" secondItem="E3F-34-ad6" secondAttribute="trailing" constant="10" id="lqN-95-4yV"/>
+                    <constraint firstItem="HNx-4Z-bTY" firstAttribute="top" secondItem="0yJ-uU-eWK" secondAttribute="bottom" id="rAM-bZ-cix"/>
+                    <constraint firstItem="E3F-34-ad6" firstAttribute="top" secondItem="6rv-6C-uQ5" secondAttribute="bottom" constant="5" id="rEo-tv-hYU"/>
+                    <constraint firstItem="0yJ-uU-eWK" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="wTo-lt-Fb1"/>
+                    <constraint firstItem="HNx-4Z-bTY" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="xdA-Sx-W0k"/>
+                    <constraint firstItem="E3F-34-ad6" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="y5D-5y-gpd"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="collectionView" destination="0yJ-uU-eWK" id="6cX-eg-14K"/>
+                <outlet property="genreLb" destination="6rv-6C-uQ5" id="YV5-Ts-vJN"/>
+            </connections>
+            <point key="canvasLocation" x="-77.599999999999994" y="60.719640179910051"/>
+        </tableViewCell>
+    </objects>
+</document>

@@ -102,11 +102,26 @@
                     <view key="view" contentMode="scaleToFill" id="ZhL-Hc-fgP">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="PRn-9T-5ED">
+                                <rect key="frame" x="0.0" y="20" width="375" height="598"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="PRn-9T-5ED" firstAttribute="leading" secondItem="sQj-jX-NLY" secondAttribute="leading" id="L2X-f2-1qQ"/>
+                            <constraint firstItem="sQj-jX-NLY" firstAttribute="bottom" secondItem="PRn-9T-5ED" secondAttribute="bottom" id="Ppo-tR-EY3"/>
+                            <constraint firstItem="sQj-jX-NLY" firstAttribute="trailing" secondItem="PRn-9T-5ED" secondAttribute="trailing" id="nKf-Sm-V6s"/>
+                            <constraint firstItem="PRn-9T-5ED" firstAttribute="top" secondItem="sQj-jX-NLY" secondAttribute="top" id="uM8-4S-dvy"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="sQj-jX-NLY"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Home" id="9OE-Ji-qyY"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="tableView" destination="PRn-9T-5ED" id="FZI-2O-G4H"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zFQ-cZ-aOx" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
