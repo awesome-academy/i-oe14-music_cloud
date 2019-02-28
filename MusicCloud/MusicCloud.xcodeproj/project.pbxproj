@@ -59,6 +59,7 @@
 		056521D2221EB2FC00CC9A51 /* SF-Pro-Text-SemiboldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 05B20142221E998400097319 /* SF-Pro-Text-SemiboldItalic.otf */; };
 		056B68C9221EB80B002E6093 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056B68C8221EB80B002E6093 /* SplashViewController.swift */; };
 		056EC13F22239D720042C22F /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056EC13E22239D720042C22F /* UIColor.swift */; };
+		0586CD362228DA7D002EBEA7 /* Genre.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0586CD352228DA7D002EBEA7 /* Genre.swift */; };
 		058C5013221BDF3600993C43 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058C5012221BDF3600993C43 /* AppDelegate.swift */; };
 		058C5018221BDF3600993C43 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 058C5016221BDF3600993C43 /* Main.storyboard */; };
 		058C501D221BDF3700993C43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 058C501B221BDF3700993C43 /* LaunchScreen.storyboard */; };
@@ -140,6 +141,7 @@
 		05493DE2221FFF1E004380EE /* BouncesContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BouncesContentView.swift; path = MusicCloud/Scenes/BouncesContentView.swift; sourceTree = SOURCE_ROOT; };
 		056B68C8221EB80B002E6093 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
 		056EC13E22239D720042C22F /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UIColor.swift; path = MusicCloud/Extension/UIColor.swift; sourceTree = SOURCE_ROOT; };
+		0586CD352228DA7D002EBEA7 /* Genre.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Genre.swift; path = Model/Genre.swift; sourceTree = SOURCE_ROOT; };
 		058C500F221BDF3600993C43 /* MusicCloud.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicCloud.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		058C5012221BDF3600993C43 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		058C5017221BDF3600993C43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -294,6 +296,7 @@
 				05490A6322252EFA008F0D38 /* Playlist.swift */,
 				05490A6522252EFA008F0D38 /* Track.swift */,
 				05490A6622252EFB008F0D38 /* TrackObject.swift */,
+				0586CD352228DA7D002EBEA7 /* Genre.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -860,6 +863,7 @@
 				05490A6E22252F01008F0D38 /* UIViewController.swift in Sources */,
 				058C5013221BDF3600993C43 /* AppDelegate.swift in Sources */,
 				05490A4C22252E80008F0D38 /* BaseError.swift in Sources */,
+				0586CD362228DA7D002EBEA7 /* Genre.swift in Sources */,
 				05490A6A22252EFB008F0D38 /* Track.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

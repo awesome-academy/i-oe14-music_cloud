@@ -10,34 +10,44 @@ import UIKit
 import Reusable
 
 final class TableViewCell: UITableViewCell, NibReusable {
-    @IBOutlet private weak var genreLb: UILabel!
+    @IBOutlet private weak var genreLabel: UILabel!
     @IBOutlet private weak var collectionView: UICollectionView!
+
+    var trackList = [Track]()
     
     override func awakeFromNib() {
         super.awakeFromNib()
-    }
-
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
+        configCollectionView()
     }
     
-    func updateCell(genre: Genre) {
-        genreLb.text = genre.rawValue
+    private func configCollectionView() {
+        collectionView.register(cellType: TrackCollectionViewCell.self)
+        collectionView.delegate = self
+        collectionView.dataSource = self
+    }
+    
+    func updateCell(genre: Genre, list: [Track]) {
+        genreLabel.text = genre.rawValue
+        trackList = list
+        collectionView.reloadData()
     }
 }
 
-extension TableViewCell {
-    func setCollectionViewDataSourceDelegate<D: UICollectionViewDataSource & UICollectionViewDelegate>(_ dataSourceDelegate: D, forRow row: Int) {
-        collectionView.register(cellType: TrackCollectionViewCell.self)
-        collectionView.delegate = dataSourceDelegate
-        collectionView.dataSource = dataSourceDelegate
-        collectionView.tag = row
-        collectionView.setContentOffset(collectionView.contentOffset, animated:false) // Stops collection view if it was scrolling.
-        collectionView.reloadData()
+extension TableViewCell: UICollectionViewDelegate, UICollectionViewDataSource {
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        return trackList.count
     }
     
-    var collectionViewOffset: CGFloat {
-        set { collectionView.contentOffset.x = newValue }
-        get { return collectionView.contentOffset.x }
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        let cell = collectionView.dequeueReusableCell(for: indexPath) as TrackCollectionViewCell
+        let track = trackList[indexPath.item]
+        cell.updateCell(track: track)
+        return cell
+    }
+}
+
+extension TableViewCell: UICollectionViewDelegateFlowLayout {
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
+        return TableViewConstant.sizeForCollectionViewCell
     }
 }
