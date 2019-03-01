@@ -11,7 +11,7 @@ import Alamofire
 import ObjectMapper
 
 final class TracksByGenreRequest: BaseRequest {
-    required init(genre: String, limit: Int) {
+    required init(genre: String, limit: Int, url: String) {
         let body: [String: Any] = ["kind": "top",
                                    "genre": genre,
                                    "limit": limit,

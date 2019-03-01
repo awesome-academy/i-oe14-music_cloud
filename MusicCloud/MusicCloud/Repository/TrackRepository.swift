@@ -36,7 +36,7 @@ final class TrackRepository: TrackRepositoryType {
     }
     
     func getTrackByGenre(genre: String, limit: Int, completion: @escaping (BaseResult<GetTrackByGenreResponse>) -> Void) {
-        let input = TracksByGenreRequest(genre: genre, limit: limit)
+        let input = TracksByGenreRequest(genre: genre, limit: limit, url: APIConstant.APIGetTrackByGenreUrl)
         api?.request(input: input, completion: { (object: GetTrackByGenreResponse?, error) in
             guard let object = object else {
                 guard let error = error else {
