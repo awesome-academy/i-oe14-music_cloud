@@ -12,7 +12,8 @@ import Reusable
 final class TableViewCell: UITableViewCell, NibReusable {
     @IBOutlet private weak var genreLabel: UILabel!
     @IBOutlet private weak var collectionView: UICollectionView!
-
+    
+    let musicPlayer = MediaManager.getInstance()
     var trackList = [Track]()
     
     override func awakeFromNib() {
@@ -43,6 +44,14 @@ extension TableViewCell: UICollectionViewDelegate, UICollectionViewDataSource {
         let track = trackList[indexPath.item]
         cell.updateCell(track: track)
         return cell
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        musicPlayer.musicList = trackList
+        musicPlayer.index = indexPath.row
+        musicPlayer.stop()
+        let streamUrl = musicPlayer.prepare(index: musicPlayer.index)
+        musicPlayer.play(url: streamUrl)
     }
 }
 

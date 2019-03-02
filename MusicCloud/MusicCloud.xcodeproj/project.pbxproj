@@ -102,6 +102,8 @@
 		05B20195221E999B00097319 /* Profile.png in Resources */ = {isa = PBXBuildFile; fileRef = 05B20170221E999B00097319 /* Profile.png */; };
 		05BD007E221FB1C500E67F01 /* Storyboards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05BD007D221FB1C500E67F01 /* Storyboards.swift */; };
 		05BD32662225420500AA6537 /* HTTPStatusCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05BD32652225420500AA6537 /* HTTPStatusCode.swift */; };
+		05D34BEC222A962900DEF200 /* TimeInterval+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D34BEB222A962900DEF200 /* TimeInterval+String.swift */; };
+		05D34BEE222A96D700DEF200 /* MediaManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D34BED222A96D700DEF200 /* MediaManager.swift */; };
 		05E688E62226A35C00C2F4EC /* APIKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05E688E52226A35C00C2F4EC /* APIKey.swift */; };
 		B5A472751719214C13FCFCC5 /* Pods_MusicCloud.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 372900201454DB9BCD875342 /* Pods_MusicCloud.framework */; };
 /* End PBXBuildFile section */
@@ -204,6 +206,8 @@
 		05B20170221E999B00097319 /* Profile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Profile.png; sourceTree = "<group>"; };
 		05BD007D221FB1C500E67F01 /* Storyboards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboards.swift; sourceTree = "<group>"; };
 		05BD32652225420500AA6537 /* HTTPStatusCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HTTPStatusCode.swift; path = Response/HTTPStatusCode.swift; sourceTree = SOURCE_ROOT; };
+		05D34BEB222A962900DEF200 /* TimeInterval+String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TimeInterval+String.swift"; sourceTree = "<group>"; };
+		05D34BED222A96D700DEF200 /* MediaManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MediaManager.swift; path = MusicCloud/Scenes/MediaManager.swift; sourceTree = SOURCE_ROOT; };
 		05E688E52226A35C00C2F4EC /* APIKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIKey.swift; sourceTree = "<group>"; };
 		372900201454DB9BCD875342 /* Pods_MusicCloud.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MusicCloud.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5770F70701A63B48AFFDFDE9 /* Pods-MusicCloud.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MusicCloud.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MusicCloud/Pods-MusicCloud.debug.xcconfig"; sourceTree = "<group>"; };
@@ -389,6 +393,7 @@
 			children = (
 				05490A6D22252F01008F0D38 /* UIViewController.swift */,
 				056EC13E22239D720042C22F /* UIColor.swift */,
+				05D34BEB222A962900DEF200 /* TimeInterval+String.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -415,6 +420,7 @@
 		058C5043221BE05F00993C43 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				05D34BED222A96D700DEF200 /* MediaManager.swift */,
 				058C5052221BE16B00993C43 /* CustomView */,
 				053F1602221FC57C00FE06D9 /* Common */,
 				058C504C221BE0A200993C43 /* Tabbar */,
@@ -856,10 +862,12 @@
 				05493DE3221FFF1E004380EE /* BouncesContentView.swift in Sources */,
 				056EC13F22239D720042C22F /* UIColor.swift in Sources */,
 				05493DD9221FFBF2004380EE /* OfflineMusicViewController.swift in Sources */,
+				05D34BEE222A96D700DEF200 /* MediaManager.swift in Sources */,
 				05493DD7221FFBEA004380EE /* LibraryViewController.swift in Sources */,
 				05430FF722272C7D00E48655 /* TrackCollectionViewCell.swift in Sources */,
 				05490A4822252E43008F0D38 /* APIService.swift in Sources */,
 				05490A7622252F17008F0D38 /* PlaylistRepository.swift in Sources */,
+				05D34BEC222A962900DEF200 /* TimeInterval+String.swift in Sources */,
 				05490A6E22252F01008F0D38 /* UIViewController.swift in Sources */,
 				058C5013221BDF3600993C43 /* AppDelegate.swift in Sources */,
 				05490A4C22252E80008F0D38 /* BaseError.swift in Sources */,
