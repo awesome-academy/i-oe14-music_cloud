@@ -8,6 +8,12 @@
 
 import Foundation
 import ObjectMapper
+import MediaPlayer
+
+enum TrackType {
+    case offlineTrack
+    case onlineTrack
+}
 
 final class Track: BaseModel {
     var artworkURL = ""
@@ -25,6 +31,10 @@ final class Track: BaseModel {
     var uri = ""
     var urn = ""
     var user = User()
+    var artistName = ""
+    var type = TrackType.onlineTrack
+    var offlineAvatar: UIImage?
+    var offlineURL: URL?
     
     init() {
     }
