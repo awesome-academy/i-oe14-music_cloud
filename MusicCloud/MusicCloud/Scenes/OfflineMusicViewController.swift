@@ -9,7 +9,7 @@
 import UIKit
 import Reusable
 
-final class OfflineMusicViewController: UIViewController {
+final class OfflineMusicViewController: BaseViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         setupViews()

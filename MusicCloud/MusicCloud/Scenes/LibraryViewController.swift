@@ -9,7 +9,7 @@
 import UIKit
 import Reusable
 
-final class LibraryViewController: UIViewController {
+final class LibraryViewController: BaseViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         setupViews()
