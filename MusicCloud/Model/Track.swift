@@ -18,7 +18,7 @@ enum TrackType {
 final class Track: BaseModel {
     var artworkURL = ""
     var createAt = ""
-    var duration = 0
+    var duration: Double = 0
     var description = ""
     var genre = ""
     var id = 0
@@ -44,6 +44,7 @@ final class Track: BaseModel {
     }
     
     func mapping(map: Map) {
+        duration <- map["duration"]
         artworkURL <- map["artwork_url"]
         createAt <- map["create_at"]
         description <- map["duration"]
@@ -58,5 +59,21 @@ final class Track: BaseModel {
         uri <- map["uri"]
         urn <- map["urn"]
         user <- map["user"]
+        artistName = user.username
+    }
+    
+    func initFromMediaItem(_ item: MPMediaItem) {
+        duration = item.playbackDuration
+        if let titleVal = item.title {
+            title = titleVal
+        }
+        if let artistVal = item.artist {
+            artistName = artistVal
+        }
+
+        playbackCount = item.playCount
+        type = TrackType.offlineTrack
+        offlineAvatar = item.artwork?.image(at: CGSize(width: 60, height: 60))
+        offlineURL = item.value(forProperty: MPMediaItemPropertyAssetURL) as? URL
     }
 }
