@@ -114,6 +114,11 @@
 		05D34BEC222A962900DEF200 /* TimeInterval+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D34BEB222A962900DEF200 /* TimeInterval+String.swift */; };
 		05D34BEE222A96D700DEF200 /* MediaManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D34BED222A96D700DEF200 /* MediaManager.swift */; };
 		05E688E62226A35C00C2F4EC /* APIKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05E688E52226A35C00C2F4EC /* APIKey.swift */; };
+		05E77C3A222F5F5500F68CE3 /* OfflineMusicCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05E77C38222F5F5500F68CE3 /* OfflineMusicCell.swift */; };
+		05E77C3B222F5F5500F68CE3 /* OfflineMusicCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05E77C39222F5F5500F68CE3 /* OfflineMusicCell.xib */; };
+		05E77C41222F646B00F68CE3 /* DesignableUIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05E77C40222F646B00F68CE3 /* DesignableUIButton.swift */; };
+		05E77C44222F648D00F68CE3 /* TrackCountingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05E77C42222F648D00F68CE3 /* TrackCountingCell.swift */; };
+		05E77C45222F648D00F68CE3 /* TrackCountingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05E77C43222F648D00F68CE3 /* TrackCountingCell.xib */; };
 		05FDD68A222B8B3000CB8117 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FDD689222B8B3000CB8117 /* BaseViewController.swift */; };
 		B5A472751719214C13FCFCC5 /* Pods_MusicCloud.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 372900201454DB9BCD875342 /* Pods_MusicCloud.framework */; };
 /* End PBXBuildFile section */
@@ -228,6 +233,11 @@
 		05D34BEB222A962900DEF200 /* TimeInterval+String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TimeInterval+String.swift"; sourceTree = "<group>"; };
 		05D34BED222A96D700DEF200 /* MediaManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MediaManager.swift; path = MusicCloud/Scenes/MediaManager.swift; sourceTree = SOURCE_ROOT; };
 		05E688E52226A35C00C2F4EC /* APIKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIKey.swift; sourceTree = "<group>"; };
+		05E77C38222F5F5500F68CE3 /* OfflineMusicCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = OfflineMusicCell.swift; path = ../../../../../../../../../Volumes/Data/MusicSwift/MusicCloud/MusicCloud/Resource/Images/OfflineMusicCell.swift; sourceTree = "<group>"; };
+		05E77C39222F5F5500F68CE3 /* OfflineMusicCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = OfflineMusicCell.xib; path = ../../../../../../../../../Volumes/Data/MusicSwift/MusicCloud/MusicCloud/Resource/Images/OfflineMusicCell.xib; sourceTree = "<group>"; };
+		05E77C40222F646B00F68CE3 /* DesignableUIButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DesignableUIButton.swift; path = DesignableUIKit/DesignableUIButton.swift; sourceTree = SOURCE_ROOT; };
+		05E77C42222F648D00F68CE3 /* TrackCountingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackCountingCell.swift; sourceTree = "<group>"; };
+		05E77C43222F648D00F68CE3 /* TrackCountingCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TrackCountingCell.xib; sourceTree = "<group>"; };
 		05FDD689222B8B3000CB8117 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		372900201454DB9BCD875342 /* Pods_MusicCloud.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MusicCloud.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5770F70701A63B48AFFDFDE9 /* Pods-MusicCloud.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MusicCloud.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MusicCloud/Pods-MusicCloud.debug.xcconfig"; sourceTree = "<group>"; };
@@ -505,6 +515,10 @@
 			isa = PBXGroup;
 			children = (
 				05493DD8221FFBF2004380EE /* OfflineMusicViewController.swift */,
+				05E77C38222F5F5500F68CE3 /* OfflineMusicCell.swift */,
+				05E77C39222F5F5500F68CE3 /* OfflineMusicCell.xib */,
+				05E77C42222F648D00F68CE3 /* TrackCountingCell.swift */,
+				05E77C43222F648D00F68CE3 /* TrackCountingCell.xib */,
 			);
 			name = OfflineMusics;
 			path = ViewControllers/OfflineMusics;
@@ -639,6 +653,7 @@
 		058C5054221BE17C00993C43 /* DesignableUIKit */ = {
 			isa = PBXGroup;
 			children = (
+				05E77C40222F646B00F68CE3 /* DesignableUIButton.swift */,
 			);
 			path = DesignableUIKit;
 			sourceTree = "<group>";
@@ -768,6 +783,7 @@
 				05430FF822272C7D00E48655 /* TrackCollectionViewCell.xib in Resources */,
 				05B2017D221E999B00097319 /* ProfileHighlighted.png in Resources */,
 				05B2018A221E999B00097319 /* OfflineMusic.png in Resources */,
+				05E77C3B222F5F5500F68CE3 /* OfflineMusicCell.xib in Resources */,
 				056521CB221EB2FC00CC9A51 /* SF-Pro-Display-Regular.otf in Resources */,
 				05B20188221E999B00097319 /* LikedTrack-orange.png in Resources */,
 				05B20178221E999B00097319 /* Playback-count-black.png in Resources */,
@@ -783,6 +799,7 @@
 				056521C8221EB2FC00CC9A51 /* orbitron-black.otf in Resources */,
 				05BE4CE4222D211C00D25D25 /* TrackCollectionCell.xib in Resources */,
 				058C5018221BDF3600993C43 /* Main.storyboard in Resources */,
+				05E77C45222F648D00F68CE3 /* TrackCountingCell.xib in Resources */,
 				056521CE221EB2FC00CC9A51 /* SF-Pro-Text-Bold.otf in Resources */,
 				05B20183221E999B00097319 /* more-black.png in Resources */,
 				05B20176221E999B00097319 /* PreviousBtn.png in Resources */,
@@ -954,6 +971,9 @@
 				05430FF722272C7D00E48655 /* TrackCollectionViewCell.swift in Sources */,
 				05490A4822252E43008F0D38 /* APIService.swift in Sources */,
 				05490A7622252F17008F0D38 /* PlaylistRepository.swift in Sources */,
+				05E77C41222F646B00F68CE3 /* DesignableUIButton.swift in Sources */,
+				05E77C44222F648D00F68CE3 /* TrackCountingCell.swift in Sources */,
+				05E77C3A222F5F5500F68CE3 /* OfflineMusicCell.swift in Sources */,
 				05D34BEC222A962900DEF200 /* TimeInterval+String.swift in Sources */,
 				05490A6E22252F01008F0D38 /* UIViewController.swift in Sources */,
 				058C5013221BDF3600993C43 /* AppDelegate.swift in Sources */,

@@ -49,7 +49,7 @@ extension BaseViewController {
         guard let audioPlayer = musicPlayer.audioPlayer else { return }
         let track = musicPlayer.musicList[musicPlayer.index]
         popupItem.title = track.title
-        popupItem.subtitle = track.user.username
+        popupItem.subtitle = track.artistName
         playBarButton = UIBarButtonItem(image: #imageLiteral(resourceName: "Play.png"), style: .plain, target: self, action: #selector(playSong))
         pauseBarButton = UIBarButtonItem(image: #imageLiteral(resourceName: "Pause.png"), style: .plain, target: self, action: #selector(pauseSong))
         if audioPlayer.rate == 0 {

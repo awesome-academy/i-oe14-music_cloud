@@ -134,10 +134,34 @@
                     <view key="view" contentMode="scaleToFill" id="I97-HW-AQJ">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You have no offline track" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g8v-WI-kUW">
+                                <rect key="frame" x="40" y="304" width="295" height="30"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="6wd-fC-rf6">
+                                <rect key="frame" x="0.0" y="20" width="375" height="598"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Z7T-Pk-U1f" firstAttribute="bottom" secondItem="6wd-fC-rf6" secondAttribute="bottom" id="618-tO-SNl"/>
+                            <constraint firstItem="6wd-fC-rf6" firstAttribute="leading" secondItem="Z7T-Pk-U1f" secondAttribute="leading" id="Bso-Em-a7d"/>
+                            <constraint firstItem="Z7T-Pk-U1f" firstAttribute="trailing" secondItem="6wd-fC-rf6" secondAttribute="trailing" id="CZs-31-Kz5"/>
+                            <constraint firstItem="g8v-WI-kUW" firstAttribute="centerX" secondItem="Z7T-Pk-U1f" secondAttribute="centerX" id="aeN-WR-SKO"/>
+                            <constraint firstItem="g8v-WI-kUW" firstAttribute="leading" secondItem="Z7T-Pk-U1f" secondAttribute="leading" constant="40" id="dvy-Rq-7ih"/>
+                            <constraint firstItem="g8v-WI-kUW" firstAttribute="centerY" secondItem="Z7T-Pk-U1f" secondAttribute="centerY" id="fcP-pc-crg"/>
+                            <constraint firstItem="6wd-fC-rf6" firstAttribute="top" secondItem="Z7T-Pk-U1f" secondAttribute="top" id="yR5-ep-Bnn"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="Z7T-Pk-U1f"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Offline Music" id="SRP-dh-Icn"/>
+                    <connections>
+                        <outlet property="tableView" destination="6wd-fC-rf6" id="4Bi-gg-xmf"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dlP-cU-MBP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

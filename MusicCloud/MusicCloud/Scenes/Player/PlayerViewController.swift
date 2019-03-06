@@ -57,7 +57,7 @@ class PlayerViewController: BaseViewController {
             return
         }
         titleLabel.text = musicPlayer.musicList[musicPlayer.index].title
-        artistLabel.text = musicPlayer.musicList[musicPlayer.index].user.username
+        artistLabel.text = musicPlayer.musicList[musicPlayer.index].artistName
         let currentTime = Double(CMTimeGetSeconds(audioPlayer.currentTime()))
         let duration = Double(CMTimeGetSeconds((item.asset.duration)))
         slider.value = Float(currentTime / duration)
@@ -148,13 +148,13 @@ class PlayerViewController: BaseViewController {
         switch musicPlayer.playerMode {
         case .loopForOnce:
             musicPlayer.playerMode = .normal
-            loopButton.setImage(#imageLiteral(resourceName: "loopForOnce.png"), for: .normal)
+            loopButton.setImage(#imageLiteral(resourceName: "normal.png"), for: .normal)
         case .normal:
             musicPlayer.playerMode = .shuffle
-            loopButton.setImage(#imageLiteral(resourceName: "normal.png"), for: .normal)
+            loopButton.setImage(#imageLiteral(resourceName: "ShuffleBtn.png"), for: .normal)
         case .shuffle:
             musicPlayer.playerMode = .loopForOnce
-            loopButton.setImage(#imageLiteral(resourceName: "ShuffleBtn.png"), for: .normal)
+            loopButton.setImage(#imageLiteral(resourceName: "loopForOnce.png"), for: .normal)
         }
     }
     
@@ -175,10 +175,8 @@ class PlayerViewController: BaseViewController {
     
     @IBAction func nextBtn(_ sender: Any) {
         switch musicPlayer.playerMode {
-        case .normal:
+        case .normal, .loopForOnce:
             musicPlayer.next()
-        case .loopForOnce:
-            musicPlayer.loopForOnce()
         case .shuffle:
             musicPlayer.shuffle()
         }

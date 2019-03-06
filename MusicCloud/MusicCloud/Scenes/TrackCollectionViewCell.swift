@@ -23,6 +23,6 @@ final class TrackCollectionViewCell: UICollectionViewCell, NibReusable {
     func updateCell(track: Track) {
         artworkImg.kf.setImage(with: URL(string: track.artworkURL))
         titleLb.text = track.title
-        artistLb.text = track.user.username
+        artistLb.text = track.artistName
     }
 }
