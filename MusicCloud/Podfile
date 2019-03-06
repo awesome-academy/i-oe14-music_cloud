@@ -11,9 +11,11 @@ target 'MusicCloud' do
 	pod 'RealmSwift'
 	pod 'ESTabBarController-swift'
 	pod 'Kingfisher'
-	pod 'BmoViewPager'
 	pod 'XLPagerTabStrip'
 	pod 'AlamofireObjectMapper'
 	pod 'IQKeyboardManager'
 	pod 'Reusable'
+	pod 'MarqueeLabel/Swift'
+	pod 'MSPeekCollectionViewDelegateImplementation'
+	pod 'Then'
 end

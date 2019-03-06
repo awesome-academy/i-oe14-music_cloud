@@ -8,6 +8,7 @@
 
 import UIKit
 import Reusable
+import LNPopupController
 
 struct TableViewConstant {
     static let limit = 20
@@ -16,7 +17,7 @@ struct TableViewConstant {
     static let refreshing = "Refreshing data"
 }
 
-final class HomeViewController: UIViewController {
+final class HomeViewController: BaseViewController {
     @IBOutlet private weak var tableView: UITableView!
     private var trackRepository = TrackRepository(api: APIService.share)
     private var trackList: [Genre: [Track]] = [:]
@@ -93,12 +94,21 @@ extension HomeViewController: UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(for: indexPath) as TableViewCell
+        cell.delegate = self
         cell.updateCell(genre: Genre.allCases[indexPath.row], list: trackList[Genre.allCases[indexPath.row]] ?? [])
         return cell
     }
 
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return CGFloat(TableViewConstant.heightForTableViewCell)
+    }
+}
+
+extension HomeViewController: PresentDelegate {
+    func presentPopupBar(_ viewController: BaseViewController) {
+        tabBarController?.popupBar.marqueeScrollEnabled = true
+        tabBarController?.presentPopupBar(withContentViewController: viewController, animated: true, completion: nil)
+        viewController.configMiniPlayer()
     }
 }
 

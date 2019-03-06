@@ -44,6 +44,8 @@ playground.xcworkspace
 .DS_Store
 Pods/
 Podfile.lock
+Carthage/
+Cartfile.resolved
 
 #APIKey 
 MusicCloud/MusicCloud/Utilities/APIKey.swift

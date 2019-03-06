@@ -8,11 +8,17 @@
 
 import UIKit
 import Reusable
+import AVFoundation
+
+protocol PresentDelegate: class {
+    func presentPopupBar(_ viewController: BaseViewController)
+}
 
 final class TableViewCell: UITableViewCell, NibReusable {
     @IBOutlet private weak var genreLabel: UILabel!
     @IBOutlet private weak var collectionView: UICollectionView!
     
+    weak var delegate: PresentDelegate?
     let musicPlayer = MediaManager.getInstance()
     var trackList = [Track]()
     
@@ -52,6 +58,8 @@ extension TableViewCell: UICollectionViewDelegate, UICollectionViewDataSource {
         musicPlayer.stop()
         let streamUrl = musicPlayer.prepare(index: musicPlayer.index)
         musicPlayer.play(url: streamUrl)
+        let miniPlayer = PlayerViewController.instantiate()
+        delegate?.presentPopupBar(miniPlayer)
     }
 }
 

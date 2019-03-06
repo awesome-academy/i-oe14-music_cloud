@@ -57,6 +57,10 @@ class MediaManager: NSObject {
         audioPlayer?.play()
     }
     
+    func play() {
+        audioPlayer?.play()
+    }
+    
     func pause() {
         audioPlayer?.pause()
     }
